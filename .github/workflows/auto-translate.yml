@@ -135,10 +135,10 @@ jobs:
           if [ -z "$LOCALE_LABEL" ]; then LOCALE_LABEL="all locales"; fi
           DATE=$(date -u +%Y-%m-%d)
 
+          BODY="Automated translation pass triggered by a change to \`enUS_Data.lua\`."$'\n\n'"All new entries are flagged with UNVERIFIED for native speaker review before merging."
+
           gh pr create \
             --title "Auto-translate ${LOCALE_LABEL} – ${DATE}" \
-            --body "Automated translation pass triggered by a change to \`enUS_Data.lua\`.
-
-All new entries are flagged with ⚠️ UNVERIFIED for native speaker review before merging." \
+            --body "$BODY" \
             --base "${{ github.event.repository.default_branch }}" \
             --head "${{ steps.branch.outputs.branch }}"
