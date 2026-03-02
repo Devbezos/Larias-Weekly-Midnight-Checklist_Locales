@@ -24,15 +24,15 @@ local DATASET = {
         title = "얼리 억세스 - 2월 26일부터 3월 2일 까지 - 페이투윈 ㄷㄷ",
         items = {
             { id = "f4b92a82", text = "레벨업할 각 캐릭터에 로그인하여 휴식 경험치 누적을 시작하게 하세요." }, -- ⚠️ UNVERIFIED
-            { id = "825bfe20", text = "전쟁 모드를 켜고 90까지 레벨업 - 일요일부터 다크문으로 10% 경험치 버프." },
-            { id = "50f90465", text = "공허폭풍에서 주간 Stormarion Assault 완료. (얼리 억세스에서 이용 가능)" }, -- ⚠️ UNVERIFIED
-            { id = "7644d082", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
-            { id = "6892e5d5", text = "각 지역의 보물을 찾아 무료 영예 획득. 가이드는 문서 참조." }, -- ⚠️ UNVERIFIED
-            { id = "f466c57b", text = "영예를 위해 4x 사냥감을 일반 난이도로 완료" },
+            { id = "90db618c", text = "전쟁 모드를 켜고 캐릭터를 90레벨까지 육성 - 다크문 페어가 일요일에 열리며 경험치 10% 추가 획득" },
+            { id = "6af1d802", text = "공허폭풍의 주간 스토마리온 공격 완료 (얼리 액세스에서 이용 가능)" }, -- ⚠️ UNVERIFIED
             { id = "35bc0cfd", text = "(선택) 영예를 위해 모든 희귀몹을 한번씩 잡기. 희귀몹마다 주1회만 평판 지급" },
             { id = "2687fe6c", text = "영예를 위해 가장 높은 봉우리 업적 달성 - 가이드는 문서 참조" }, -- ⚠️ UNVERIFIED
             { id = "91e7ee6c", text = "영예 획득을 위해 사이드 퀘스트 진행 (부캐들 레벨업 하면서 진행 가능). 다크문 페어 버프는 영예를 주지 않습니다." },
-            { id = "4e99ff6e", text = "참고: 얼리 억세스에서는 특이점 챔피언 영예 장신구만 이용 가능합니다. 나머지는 공식 출시 후 월요일 또는 각 지역 주간 리셋 후 이용 가능합니다." }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "명성을 위한 한밤의 전승 사냥꾼 업적 완료 - 가이드는 문서 참조" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "명성을 위한 최고봉 업적 완료 - 가이드는 문서 참조" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "명성을 위한 부가 퀘스트 연계 완료 (동시에 레벨업하기 위해 부캐로 진행 가능). 다크문 버프는 명성을 제공하지 않음." },
+            { id = "fc025216", text = "참고: 얼리 액세스에서는 특이점 챔피언 명성 장신구만 이용 가능 - 나머지는 정식 출시 이후 월요일 또는 각 지역의 주간 초기화 이후 이용 가능해집니다." }, -- ⚠️ UNVERIFIED
         },
     },
 
@@ -41,10 +41,10 @@ local DATASET = {
         title = "프리시즌 1주차 - 3월 3일 - 주로 깡신런",
         items = {
             { id = "c3de7d35", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
-            { id = "fe628d60", text = "The Singularity 영예 7까지 올려서 쳴피언 1/6 장신구 획득 - available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "9b594c78", text = "Hara'ti 영예 8까지 올려서 쳴피언 1/6 허리띄 획득 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
-            { id = "6c01e9d5", text = "실버문 영예 9까지 올려서 쳴피언 1/6 머리 투구 획득 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "484f13d6", text = "아마니 부족 영예 9까지 올려서 쳴피언 1/6 목걸이 획득 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "6b199064", text = "특이점 명성을 7단계로 올려 1/6 챔피언 장신구 획득 - 얼리 액세스에서 이용 가능 - 명성 상인의 퀘스트에서 획득 (구매 아님)" }, -- ⚠️ UNVERIFIED
+            { id = "2a9b4f4c", text = "하라티 명성을 8단계로 올려 1/6 챔피언 허리띠 획득 - 얼리 액세스에서 이용 불가 - 명성 상인의 퀘스트에서 획득 (구매 아님)" }, -- ⚠️ UNVERIFIED
+            { id = "6f39070d", text = "실버문 명성을 9단계로 올려 1/6 챔피언 투구 획득 - 얼리 액세스에서 이용 불가 - 명성 상인의 퀘스트에서 획득 (구매 아님)" }, -- ⚠️ UNVERIFIED
+            { id = "6ba4afc1", text = "아마니 부족 명성을 9단계로 올려 1/6 챔피언 목걸이 획득 - 얼리 액세스에서 이용 불가 - 명성 상인의 퀘스트에서 획득 (구매 아님)" }, -- ⚠️ UNVERIFIED
             { id = "e326ed96", text = "Eversong Woods에서 주간 Saltheril's Soiree 완료" },
             { id = "da2fa0ef", text = "줄아만에서 주간 Abundance 이벤트 완료" },
             { id = "dbc8384b", text = "하란다르에서 주간 하라니르의 전설 이벤트 완료" },
@@ -83,7 +83,7 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "언급하기 전까지는 절대 문장을 소모하지 말 것" },
             { id = "5b379666", text = "티어 획득을 위해 공찾 돌기 (이유는 문서 참조)" },
-            { id = "dd71541a", text = "(선택?) 깡신런 완료 - 보상 챔피언 246 장비" }, -- ⚠️ UNVERIFIED
+            { id = "1e5c80bc", text = "(선택?) M0 던전 월드 투어 완료 - 챔피언 아이템 레벨 보상" },
             { id = "123747cb", text = "챔피언 장비 및 영예를 위해 4x 사냥감을 악몽 난이도로 완료" },
             { id = "dc0e2686", text = "필드보스 킬 - 챔피언 250 장비" },
             { id = "3e0dfde7", text = "가능하다면, PVP퀘스트 완료해서 영웅 목걸이/반지 확정 획득." },

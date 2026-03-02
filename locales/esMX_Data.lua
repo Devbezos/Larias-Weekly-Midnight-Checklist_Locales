@@ -24,15 +24,15 @@ local DATASET = {
         title = "Acceso anticipado - 26 feb. al 2 mar. - Paga para ganar",
         items = {
             { id = "f4b92a82", text = "Inicia sesión en cada personaje que planeas subir de nivel para que empiecen a acumular EXP de descanso." }, -- ⚠️ UNVERIFIED
-            { id = "825bfe20", text = "Sube personajes en Modo de Guerra a nivel 90 – la FLN abre el domingo para +10 % de exp." },
-            { id = "50f90465", text = "Completa el Asalto de Tormarión semanal en la Tormenta del Vacío. (Disponible en acceso anticipado)" }, -- ⚠️ UNVERIFIED
-            { id = "7644d082", text = "(Opcional) Mata cada élite raro una vez en cada zona para reputación. Tienen un bloqueo semanal por raro." },
-            { id = "6892e5d5", text = "Busca los tesoros de cada región para reputación gratuita. Ver documento para la guía." }, -- ⚠️ UNVERIFIED
-            { id = "f466c57b", text = "Completa 4 veces la Presa en dificultad normal para reputación." },
+            { id = "90db618c", text = "Sube personajes al 90 con el modo de guerra activado - La FLV abre el domingo para 10% más de exp." },
+            { id = "6af1d802", text = "Completa el asalto semanal de Stormarion en la Tormenta del Vacío. (Está disponible en Acceso Anticipado)" },
             { id = "35bc0cfd", text = "(Opcional) Mata cada élite raro una vez en cada zona para reputación. Tienen un bloqueo semanal por raro." },
             { id = "2687fe6c", text = "Completa el logro Las Cimas más Altas para reputación - ver documento para la guía" }, -- ⚠️ UNVERIFIED
             { id = "91e7ee6c", text = "Completa cadenas de misiones secundarias para reputación. (Se puede hacer en alts mientras subes de nivel). El buff de la FLN no da reputación." },
-            { id = "4e99ff6e", text = "Nota: Solo el abalorio de campeón de La Singularidad está disponible en acceso anticipado - los demás estarán disponibles el lunes tras el lanzamiento oficial o tras el reinicio semanal de cada región." }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Completa el logro Cazador de Historia de Medianoche para renombre - ver doc para guía" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Completa el logro Picos Más Altos para renombre - ver doc para guía" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "Completa cadenas de misiones secundarias para renombre. (puede hacerse en alts para subir de nivel al mismo tiempo). El beneficio de FLV no otorga renombre." },
+            { id = "fc025216", text = "Nota: Solo el abalorio de renombre campeón de Singularidad está disponible en acceso anticipado - los otros estarán disponibles el lunes después del lanzamiento oficial o después del reinicio semanal de cada región." },
         },
     },
 
@@ -41,10 +41,10 @@ local DATASET = {
         title = "Pretemporada semana 1 - 3 de marzo - M0",
         items = {
             { id = "c3de7d35", text = "No gastes ninguna Crestalborada hasta que se indique" },
-            { id = "fe628d60", text = "Sube la reputación de La Singularidad a rango 7 para abalorio de campeón 1/6 - disponible en acceso anticipado - viene de misión del vendedor de reputación (no se compra)" },
-            { id = "9b594c78", text = "Sube la reputación de Hara'ti a rango 8 para cinturón de campeón 1/6 - ¿no disponible en acceso anticipado? - viene de misión del vendedor de reputación (no se compra)" },
-            { id = "6c01e9d5", text = "Sube la reputación de Lunargenta a rango 9 para yelmo de campeón 1/6 - NO disponible en acceso anticipado - viene de misión del vendedor de reputación (no se compra)" },
-            { id = "484f13d6", text = "Sube la reputación de la Tribu Amani a rango 9 para collar de campeón 1/6 - ¿no disponible en acceso anticipado? - viene de misión del vendedor de reputación (no se compra)" },
+            { id = "6b199064", text = "Eleva el renombre de La Singularidad a rango 7 para abalorio campeón 1/6 - disponible en acceso anticipado - viene de misión del vendedor de renombre (no se compra)" },
+            { id = "2a9b4f4c", text = "Eleva el renombre de Hara'ti a rango 8 para cinturón campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - viene de misión del vendedor de renombre (no se compra)" },
+            { id = "6f39070d", text = "Eleva el renombre de Luna de Plata a rango 9 para yelmo campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - viene de misión del vendedor de renombre (no se compra)" },
+            { id = "6ba4afc1", text = "Eleva el renombre de Tribu Amani a rango 9 para collar campeón 1/6 - NO DISPONIBLE EN ACCESO ANTICIPADO - viene de misión del vendedor de renombre (no se compra)" },
             { id = "e326ed96", text = "Completa la Velada de Saltheril semanal en los Bosques Siempreverd." },
             { id = "da2fa0ef", text = "Completa el Evento de la abundancia semanal en Zul'Aman." },
             { id = "dbc8384b", text = "Completa el evento Leyendas de los Haranir semanal en Harandar." },
@@ -83,7 +83,7 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "No gastes ninguna Crestalborada hasta que se indique" },
             { id = "5b379666", text = "Haz LFR para piezas de conjunto (mira la guía para saber por qué)" },
-            { id = "dd71541a", text = "(¿Opcional?) Completa un tour mundial de M0 - recompensa ilvl campeón" }, -- ⚠️ UNVERIFIED
+            { id = "1e5c80bc", text = "(¿Opcional?) Completa un Tour Mundial de mazmorras M0 - recompensa nvl de objeto camp" },
             { id = "123747cb", text = "Completa 4 veces la Presa de Pesadilla para equipo de campeón y reputación." },
             { id = "dc0e2686", text = "Mata al jefe del mundo para un objeto de campeón 2/6 ilvl 250" },
             { id = "3e0dfde7", text = "Si disponible, completa la misión JcJ para collar/anillo de héroe garantizado" },

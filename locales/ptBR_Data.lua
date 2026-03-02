@@ -24,15 +24,15 @@ local DATASET = {
         title = "Acesso Antecipado - 26 fev. a 2 mar. - Pay to Win",
         items = {
             { id = "f4b92a82", text = "Entre com cada personagem que planeja nivelar para que comecem a acumular EXP descansada." }, -- ⚠️ UNVERIFIED
-            { id = "825bfe20", text = "Suba personagens com Modo Guerra ativado ao nível 90 – a FLN abre no domingo com +10% de EXP." },
-            { id = "50f90465", text = "Complete o Assalto de Stormarion semanal na Tempestade do Vazio. (Disponível no Acesso Antecipado)" }, -- ⚠️ UNVERIFIED
-            { id = "7644d082", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Cada raro tem bloqueio semanal." },
-            { id = "6892e5d5", text = "Procure os tesouros de cada região para renome gratuito. Veja o documento para o guia." }, -- ⚠️ UNVERIFIED
-            { id = "f466c57b", text = "Complete a Presa 4 vezes na dificuldade normal para obter renome." },
+            { id = "90db618c", text = "Suba personagens para 90 com modo guerra ativado - FLN abre no domingo para 10% a mais de exp." },
+            { id = "6af1d802", text = "Complete o Ataque Stormarion semanal na Tempestade do Caos. (Está disponível no Acesso Antecipado)" }, -- ⚠️ UNVERIFIED
             { id = "35bc0cfd", text = "(Opcional) Mate cada raro uma vez em cada zona para renome. Cada raro tem bloqueio semanal." },
             { id = "2687fe6c", text = "Complete a conquista Os Picos Mais Altos para renome - veja o documento para o guia" }, -- ⚠️ UNVERIFIED
             { id = "91e7ee6c", text = "Complete cadeias de missões secundárias para renome. (Pode ser feito em alts enquanto lvla). O buff da FLN não dá renome." },
-            { id = "4e99ff6e", text = "Nota: Apenas o acessório campeão de renome de A Singularidade está disponível no acesso antecipado - os outros ficarão disponíveis na segunda-feira após o lançamento oficial ou após o reinício semanal de cada região." }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Complete a conquista Caçador da História de Midnight para renome - veja o doc para guia" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Complete a conquista Picos Mais Altos para renome - veja o doc para guia" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "Complete cadeias de missões secundárias para renome. (pode ser feito em personagens alternativos para subir ao mesmo tempo). Bônus da FLN não dá renome." },
+            { id = "fc025216", text = "Nota: Apenas o berloque de renome de campeão da Singularidade está disponível no acesso antecipado - os outros ficarão disponíveis ou na segunda-feira após o lançamento oficial ou após a reinicialização semanal de cada região." },
         },
     },
 
@@ -41,10 +41,10 @@ local DATASET = {
         title = "Pré-temporada Semana 1 - 3 de março - M0",
         items = {
             { id = "c3de7d35", text = "Não gaste nenhum Brasão até receber instruções" },
-            { id = "fe628d60", text = "Eleve o renome com A Singularidade ao grau 7 para o acessório campeão 1/6 - available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "9b594c78", text = "Eleve o renome com Hara'ti ao grau 8 para o cinturão campeão 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
-            { id = "6c01e9d5", text = "Eleve o renome com Lua de Prata ao grau 9 para o elmo campeão 1/6 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "484f13d6", text = "Eleve o renome com a Tribo Amani ao grau 9 para o colar campeão 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "6b199064", text = "Aumente o renome da Singularidade para posto 7 para 1/6 berloque de campeão - disponível no acesso antecipado - vem de missão do vendedor de renome (não é comprado)" },
+            { id = "2a9b4f4c", text = "Aumente o renome de Hara'ti para posto 8 para 1/6 cinto de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" },
+            { id = "6f39070d", text = "Aumente o renome de Luaprata para posto 9 para 1/6 elmo de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" }, -- ⚠️ UNVERIFIED
+            { id = "6ba4afc1", text = "Aumente o renome da Tribo Amani para posto 9 para 1/6 colar de campeão - NÃO DISPONÍVEL NO ACESSO ANTECIPADO - vem de missão do vendedor de renome (não é comprado)" },
             { id = "e326ed96", text = "Complete a Soiree de Saltheril semanal em Bosques da Canção Eterna." },
             { id = "da2fa0ef", text = "Complete o Evento de Abundância semanal em Zul'Aman." },
             { id = "dbc8384b", text = "Complete o evento semanal Lendas dos Haranir em Harandar." },
@@ -83,7 +83,7 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Não gaste nenhum Brasão até receber instruções" },
             { id = "5b379666", text = "Faça o LFR para peças de conjunto (veja o guia para entender o porquê)" },
-            { id = "dd71541a", text = "(Opcional?) Complete um tour mundial das masmorras M0 - recompensa nível de item campeão" }, -- ⚠️ UNVERIFIED
+            { id = "1e5c80bc", text = "(Opcional?) Complete um Tour Mundial de masmorras M0 - recompensas nível de item de campeão" },
             { id = "123747cb", text = "Complete a Presa Pesadelo 4 vezes para equipamento campeão e renome." },
             { id = "dc0e2686", text = "Mate o chefe mundial para um item campeão 2/6 nível 250" },
             { id = "3e0dfde7", text = "Se disponível, complete a missão de JcJ para colar/anel herói garantido" },

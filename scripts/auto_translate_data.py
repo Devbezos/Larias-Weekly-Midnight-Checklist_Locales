@@ -107,6 +107,19 @@ _ITEM_RE = re.compile(
     r'\{\s*id\s*=\s*"([^"]+)"\s*,\s*text\s*=\s*"((?:[^"\\]|\\.)*)"'
 )
 
+# Legacy parser: matches sections WITHOUT id fields:  { title = "...", items = { ... }, }
+_LEGACY_SEC_RE = re.compile(
+    r'\{\s*\n\s*title\s*=\s*"((?:[^"\\]|\\.)*)",\s*\n\s*items\s*=\s*\{(.*?)\n\s*\},\s*\n\s*\}',
+    re.DOTALL,
+)
+# Legacy item: { text = "..." }
+_LEGACY_ITEM_RE = re.compile(r'\{\s*text\s*=\s*"((?:[^"\\]|\\.)*)"')
+
+
+def _normalize_newlines(text: str) -> str:
+    """Normalize Windows CRLF → LF so regex \n anchors work on Linux CI."""
+    return text.replace("\r\n", "\n").replace("\r", "\n")
+
 
 def parse_enus(text: str) -> list:
     """
@@ -114,6 +127,7 @@ def parse_enus(text: str) -> list:
       [ {"id": str, "title": str, "items": [{"id": str, "text": str}]}, ... ]
     Preserves section and item order exactly.
     """
+    text = _normalize_newlines(text)
     sections = []
     for sm in _SEC_BLOCK_RE.finditer(text):
         sec_id      = sm.group(1)
@@ -134,6 +148,7 @@ def parse_locale_by_id(text: str) -> dict:
                       "items": { item_id: {"text": str, "unverified": bool} } } }
     Only entries whose IDs are present are returned; positional drift is impossible.
     """
+    text = _normalize_newlines(text)
     result = {}
     for sm in _SEC_BLOCK_RE.finditer(text):
         sec_id      = sm.group(1)
@@ -155,6 +170,66 @@ def parse_locale_by_id(text: str) -> dict:
                 "unverified": "⚠️" in full_line,
             }
         result[sec_id] = {
+            "title":            raw_title,
+            "title_unverified": title_unver,
+            "items":            items,
+        }
+    return result
+
+
+def parse_locale_positional(text: str, enus_sections: list) -> dict:
+    """
+    Positional fallback: parse a locale file that either has legacy slug IDs OR no IDs at all.
+    Maps sections/items by POSITION to the enUS hash IDs so the result has the same
+    shape as parse_locale_by_id().  Used when parse_locale_by_id() returns an empty dict
+    for a non-empty file.
+    Returns: same dict shape as parse_locale_by_id().
+    """
+    text = _normalize_newlines(text)
+    # Try with-id sections first (slug IDs), then fall back to id-less legacy format.
+    sec_matches = list(_SEC_BLOCK_RE.finditer(text))
+    use_legacy  = len(sec_matches) == 0
+    if use_legacy:
+        sec_matches = list(_LEGACY_SEC_RE.finditer(text))
+
+    result = {}
+    for i, sm in enumerate(sec_matches):
+        if i >= len(enus_sections):
+            break
+        enid = enus_sections[i]["id"]
+
+        if use_legacy:
+            raw_title   = sm.group(1)
+            items_block = sm.group(2)
+            title_unver = "⚠️" in raw_title
+        else:
+            raw_title   = sm.group(2)
+            items_block = sm.group(3)
+            match_lines = sm.group(0).split("\n")
+            title_line  = next((l for l in match_lines if "title" in l), "")
+            title_unver = "⚠️" in title_line
+
+        item_matches = (
+            list(_LEGACY_ITEM_RE.finditer(items_block))
+            if use_legacy
+            else list(_ITEM_RE.finditer(items_block))
+        )
+
+        items = {}
+        for j, im in enumerate(item_matches):
+            if j >= len(enus_sections[i]["items"]):
+                break
+            enitem_id = enus_sections[i]["items"][j]["id"]
+            item_text = im.group(1) if use_legacy else im.group(2)
+            line_start = items_block.rfind("\n", 0, im.start()) + 1
+            line_end   = items_block.find("\n", im.end())
+            full_line  = items_block[line_start: line_end if line_end != -1 else len(items_block)]
+            items[enitem_id] = {
+                "text":       item_text,
+                "unverified": "⚠️" in full_line,
+            }
+
+        result[enid] = {
             "title":            raw_title,
             "title_unverified": title_unver,
             "items":            items,
@@ -492,21 +567,37 @@ def main():
 
     targets = [args.locale] if args.locale else SUPPORTED_LOCALES
 
-    # ── Parse existing locale files (ID-based) ──────────────────────────────
+    # ── Parse existing locale files (ID-based, with positional fallback) ──────
     enus_sec_ids = {s["id"] for s in enus_sections}
     locale_map   = {}  # { locale: { sec_id: { title, items: { item_id: ... } } } }
     for locale in targets:
         lua_path = LOCALES_DIR / f"{locale}_Data.lua"
         if lua_path.exists():
-            by_id = parse_locale_by_id(lua_path.read_text(encoding="utf-8"))
-            # Sanity-check: warn if no section IDs match enUS (likely a legacy file)
+            raw_text = lua_path.read_text(encoding="utf-8")
+            by_id = parse_locale_by_id(raw_text)
             matched = sum(1 for sid in by_id if sid in enus_sec_ids)
-            if by_id and matched == 0:
+
+            if not by_id:
+                # ID-based parse produced nothing – diagnose and fall back to positional.
+                id_count = raw_text.count('id =')
+                print(f"  [{locale}] WARN: regex found 0 sections in {lua_path.name} "
+                      f"(file size {len(raw_text)} bytes, {id_count} 'id =' occurrences). "
+                      f"Falling back to positional matching.")
+                by_id  = parse_locale_positional(raw_text, enus_sections)
+                matched = sum(1 for sid in by_id if sid in enus_sec_ids)
+                print(f"  [{locale}] positional fallback: {len(by_id)} sections "
+                      f"({matched}/{len(enus_sections)} match enUS)")
+            elif matched == 0:
                 print(f"  [{locale}] WARNING: no section IDs matched enUS – "
-                      f"file may use legacy slug IDs. All entries will be re-translated.")
+                      f"file may use legacy slug IDs. Falling back to positional matching.")
+                by_id  = parse_locale_positional(raw_text, enus_sections)
+                matched = sum(1 for sid in by_id if sid in enus_sec_ids)
+                print(f"  [{locale}] positional fallback: {len(by_id)} sections "
+                      f"({matched}/{len(enus_sections)} match enUS)")
             else:
                 print(f"  [{locale}] parsed {len(by_id)} sections by ID "
                       f"({matched}/{len(by_id)} match enUS)")
+
             locale_map[locale] = by_id
         else:
             locale_map[locale] = {}

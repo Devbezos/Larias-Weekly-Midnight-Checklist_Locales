@@ -24,15 +24,15 @@ local DATASET = {
         title = "Accesso anticipato - dal 26 feb. al 2 mar. - Pay to Win",
         items = {
             { id = "f4b92a82", text = "Accedi a ogni personaggio che intendi livellare in modo che inizi ad accumulare EP di riposo." }, -- ⚠️ UNVERIFIED
-            { id = "825bfe20", text = "Porta i personaggi in Modalità Guerra al livello 90 – la FLO apre domenica per +10% di esperienza." },
-            { id = "50f90465", text = "Completa l'Assalto di Stormarion settimanale nella Tempesta del Vuoto. (Disponibile nell'accesso anticipato)" }, -- ⚠️ UNVERIFIED
-            { id = "7644d082", text = "(Facoltativo) Uccidi ogni raro una volta per zona per reputazione. Ogni raro ha un limite settimanale." },
-            { id = "6892e5d5", text = "Cerca i tesori di ogni regione per reputazione gratuita. Vedi doc per la guida." }, -- ⚠️ UNVERIFIED
-            { id = "f466c57b", text = "Completa 4 volte la Preda in difficoltà normale per reputazione." },
+            { id = "90db618c", text = "Porta i personaggi a livello 90 con la modalità guerra attiva - la FdL apre domenica per il 10% di esperienza aggiuntiva." },
+            { id = "6af1d802", text = "Completa l'assalto settimanale di Stormarion nella Tempesta del Vuoto. (È disponibile nell'Accesso Anticipato)" },
             { id = "35bc0cfd", text = "(Facoltativo) Uccidi ogni raro una volta per zona per reputazione. Ogni raro ha un limite settimanale." },
             { id = "2687fe6c", text = "Completa l'impresa Le Vette più Alte per reputazione - vedi doc per la guida" }, -- ⚠️ UNVERIFIED
             { id = "91e7ee6c", text = "Completa le catene di missioni secondarie per la reputazione. (Può essere fatto sugli alt mentre si livella). Il buff della FLO non dà reputazione." },
-            { id = "4e99ff6e", text = "Nota: solo il ciondolo campione della Singolarità è disponibile nell'accesso anticipato - gli altri saranno disponibili il lunedì dopo il lancio ufficiale o dopo il reset settimanale di ogni regione." }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Completa l'impresa Cacciatore di Leggende di Midnight per fama - vedi il documento per la guida" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Completa l'impresa Picchi Più Alti per fama - vedi il documento per la guida" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "Completa le catene di missioni secondarie per fama. (può essere fatto sugli alt per salire di livello contemporaneamente). Il potenziamento della FdL non dà fama." },
+            { id = "fc025216", text = "Nota: Solo il monile di fama del campione della Singolarità è disponibile nell'accesso anticipato - gli altri diventeranno disponibili lunedì dopo il lancio ufficiale o dopo il reset settimanale di ciascuna regione." },
         },
     },
 
@@ -41,10 +41,10 @@ local DATASET = {
         title = "Pre-stagione settimana 1 - 3 marzo - M0",
         items = {
             { id = "c3de7d35", text = "Non spendere nessun Emblema finché non ti viene detto" },
-            { id = "fe628d60", text = "Porta la reputazione con La Singolarità al grado 7 per il ciondolo campione 1/6 - available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "9b594c78", text = "Porta la reputazione con Hara'ti al grado 8 per la cintura campione 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
-            { id = "6c01e9d5", text = "Porta la reputazione con Lunargento al grado 9 per l'elmo campione 1/6 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "484f13d6", text = "Porta la reputazione con la Tribù Amani al grado 9 per la collana campione 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "6b199064", text = "Porta la fama della Singolarità al rango 7 per il monile del campione 1/6 - disponibile nell'accesso anticipato - ottenuto da una missione del venditore di fama (non acquistato)" },
+            { id = "2a9b4f4c", text = "Porta la fama di Hara'ti al rango 8 per la cintura del campione 1/6 - NON DISPONIBILE NELL'ACCESSO ANTICIPATO - ottenuta da una missione del venditore di fama (non acquistata)" },
+            { id = "6f39070d", text = "Porta la fama di Lunargenta al rango 9 per l'elmo del campione 1/6 - NON DISPONIBILE NELL'ACCESSO ANTICIPATO - ottenuto da una missione del venditore di fama (non acquistato)" },
+            { id = "6ba4afc1", text = "Porta la fama della Tribù Amani al rango 9 per la collana del campione 1/6 - NON DISPONIBILE NELL'ACCESSO ANTICIPATO - ottenuta da una missione del venditore di fama (non acquistata)" },
             { id = "e326ed96", text = "Completa la Serata di Saltheril settimanale nel Bosco dei Canti Eterni." },
             { id = "da2fa0ef", text = "Completa l'Evento dell'abbondanza settimanale a Zul'Aman." },
             { id = "dbc8384b", text = "Completa l'evento Leggende degli Haranir settimanale a Harandar." },
@@ -83,7 +83,7 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Non spendere nessun Emblema finché non ti viene detto" },
             { id = "5b379666", text = "Fai il LFR per i pezzi tier (controlla la guida per sapere perché)" },
-            { id = "dd71541a", text = "(Facoltativo?) Completa un tour mondiale dei dungeon M0 - ricompensa livello oggetto campione" }, -- ⚠️ UNVERIFIED
+            { id = "1e5c80bc", text = "(Opzionale?) Completa un Tour Mondiale dei dungeon M0 - ricompensa livello oggetto campione" },
             { id = "123747cb", text = "Completa 4 volte la Preda da Incubo per equipaggiamento campione e reputazione." },
             { id = "dc0e2686", text = "Uccidi il boss mondiale per un oggetto campione 2/6 livello 250" },
             { id = "3e0dfde7", text = "Se disponibile, completa la missione JcJ per collana/anello eroe garantito" },

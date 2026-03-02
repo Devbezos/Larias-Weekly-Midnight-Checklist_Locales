@@ -24,15 +24,15 @@ local DATASET = {
         title = "Accès anticipé - 26 fév. au 2 mars - Pay to Win",
         items = {
             { id = "f4b92a82", text = "Connectez-vous sur chaque personnage que vous prévoyez de monter pour qu'ils commencent à accumuler de l'XP reposée." }, -- ⚠️ UNVERIFIED
-            { id = "825bfe20", text = "Montez vos personnages en Mode Guerre au niveau 90 – la FLN ouvre dimanche pour +10 % d'XP." },
-            { id = "50f90465", text = "Complétez l'Assaut de Stormarion hebdo dans la Tempête du néant. (Disponible en accès anticipé)" }, -- ⚠️ UNVERIFIED
-            { id = "7644d082", text = "(Optionnel) Tuez chaque créature rare une fois par zone pour de la renommée. Chaque rare a un blocage hebdomadaire." },
-            { id = "6892e5d5", text = "Cherchez les trésors de chaque région pour de la renommée gratuite. Voir doc pour le guide." }, -- ⚠️ UNVERIFIED
-            { id = "f466c57b", text = "Complétez 4 fois la Traque en difficulté normale pour de la renommée." },
+            { id = "90db618c", text = "Montez des personnages en mode guerre jusqu'au niveau 90 - La Foire de Sombrelune ouvre dimanche pour 10% d'exp en plus." },
+            { id = "6af1d802", text = "Terminez l'assaut hebdomadaire de Stormarion dans la Tempête du Vide. (Il est disponible en Accès Anticipé)" }, -- ⚠️ UNVERIFIED
             { id = "35bc0cfd", text = "(Optionnel) Tuez chaque rare une fois par zone pour de la renommée. Blocage hebdomadaire par rare." },
             { id = "2687fe6c", text = "Complétez le haut fait Les Sommets les Plus Hauts pour de la renommée - voir doc pour le guide" }, -- ⚠️ UNVERIFIED
             { id = "91e7ee6c", text = "Complétez les chaînes de quêtes secondaires pour la renommée. (Peut être fait sur les alts en levant en même temps). Le buff de la FLN ne donne pas de renommée." },
-            { id = "4e99ff6e", text = "Note : Seule la babiole champion de La Singularité est disponible en accès anticipé - les autres seront disponibles le lundi après le lancement officiel ou après la réinitialisation hebdomadaire de chaque région." }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Terminez le haut fait Chasseur de traditions de Minuit pour la renommée - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Terminez le haut fait Sommets les plus hauts pour la renommée - voir le doc pour le guide" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "Terminez les chaînes de quêtes secondaires pour la renommée. (peut être fait sur des rerolls pour monter en même temps). Le bonus de la Foire de Sombrelune ne donne pas de renommée." },
+            { id = "fc025216", text = "Note : Seul le bijou champion de renommée de la Singularité est disponible en accès anticipé - les autres deviendront disponibles soit lundi après le lancement officiel, soit après la réinitialisation hebdomadaire de chaque région." },
         },
     },
 
@@ -41,10 +41,10 @@ local DATASET = {
         title = "Pré-saison semaine 1 - 3 mars - M0",
         items = {
             { id = "c3de7d35", text = "Ne dépensez aucun Écu avant d'en recevoir l'instruction" },
-            { id = "fe628d60", text = "Montez la renommée de La Singularité au rang 7 pour une babiole champion 1/6 - available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "9b594c78", text = "Montez la renommée de Hara'ti au rang 8 pour une ceinture champion 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
-            { id = "6c01e9d5", text = "Montez la renommée de Lune-d'Argent au rang 9 pour un casque champion 1/6 - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "484f13d6", text = "Montez la renommée de la tribu Amani au rang 9 pour un collier champion 1/6 - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "6b199064", text = "Montez la renommée de la Singularité au rang 7 pour le bijou champion 1/6 - disponible en accès anticipé - vient d'une quête du vendeur de renommée (pas acheté)" },
+            { id = "2a9b4f4c", text = "Montez la renommée des Hara'ti au rang 8 pour la ceinture champion 1/6 - NON DISPONIBLE EN ACCÈS ANTICIPÉ - vient d'une quête du vendeur de renommée (pas achetée)" },
+            { id = "6f39070d", text = "Montez la renommée de Lune-d'Argent au rang 9 pour le heaume champion 1/6 - NON DISPONIBLE EN ACCÈS ANTICIPÉ - vient d'une quête du vendeur de renommée (pas acheté)" },
+            { id = "6ba4afc1", text = "Montez la renommée de la tribu Amani au rang 9 pour le collier champion 1/6 - NON DISPONIBLE EN ACCÈS ANTICIPÉ - vient d'une quête du vendeur de renommée (pas acheté)" },
             { id = "e326ed96", text = "Complétez la Soirée de Saltheril hebdo dans les Bois des Chants éternels." },
             { id = "da2fa0ef", text = "Complétez l'Événement d'abondance hebdo dans Zul'Aman." },
             { id = "dbc8384b", text = "Complétez l'événement Légendes des Haranir hebdo à Harandar." },
@@ -83,7 +83,7 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Ne dépensez aucun Écu avant d'en recevoir l'instruction" },
             { id = "5b379666", text = "Faites le LFR pour les pièces de palier (consultez le guide pour savoir pourquoi)" },
-            { id = "dd71541a", text = "(Optionnel?) Effectuez un tour mondial des donjons M0 – récompense niv. obj. champion" }, -- ⚠️ UNVERIFIED
+            { id = "1e5c80bc", text = "(Optionnel ?) Terminez un Tour du Monde des donjons M0 - récompense un ilvl champion" },
             { id = "123747cb", text = "Complétez 4 fois la Traque de cauchemar pour équipement champion et renommée." },
             { id = "dc0e2686", text = "Tuez le boss mondial pour un objet champion 2/6 niv. 250" },
             { id = "3e0dfde7", text = "Si disponible, complétez la quête JcJ pour un collier/anneau héroïque garanti" },

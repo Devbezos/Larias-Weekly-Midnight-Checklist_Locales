@@ -24,15 +24,15 @@ local DATASET = {
         title = "Früher Zugang - 26. Feb. bis 2. März - Pay to Win",
         items = {
             { id = "f4b92a82", text = "Mit jedem Charakter einloggen, den du leveln möchtest, damit er mit dem Ansammeln ausgeruhter EP beginnt." }, -- ⚠️ UNVERIFIED
-            { id = "825bfe20", text = "Charaktere im Kriegsmodus auf Level 90 bringen – JdD öffnet Sonntag für +10 % XP." },
-            { id = "50f90465", text = "Wöchentlichen Sturmarion-Angriff im Nichtsturm abschließen. (Im Frühen Zugang verfügbar)" }, -- ⚠️ UNVERIFIED
-            { id = "7644d082", text = "(Optional) Jeden seltenen Gegner einmal pro Zone für Ansehen töten. Wöchentlicher Lockout pro Seltenem." },
-            { id = "6892e5d5", text = "Schätze jeder Region für kostenloses Ansehen aufspüren. Dokument für Guide lesen." }, -- ⚠️ UNVERIFIED
-            { id = "f466c57b", text = "4x Beute auf Normaler Schwierigkeit für Ansehen abschließen." },
+            { id = "90db618c", text = "Levele Charaktere mit Kriegsmodus auf 90 - DMF öffnet Sonntag für 10% mehr EP." },
+            { id = "6af1d802", text = "Schließe den wöchentlichen Sturmarion-Angriff im Leersturm ab. (Ist im Early Access verfügbar)" }, -- ⚠️ UNVERIFIED
             { id = "35bc0cfd", text = "(Optional) Jeden seltenen Gegner einmal pro Zone für Ansehen töten. Wöchentlicher Lockout pro Seltenem." },
             { id = "2687fe6c", text = "Die-höchsten-Gipfel-Errungenschaft für Ansehen abschließen – Guide im Dokument lesen" }, -- ⚠️ UNVERIFIED
             { id = "91e7ee6c", text = "Nebenquestketten für Ansehen abschließen. (Kann auf Alts gleichzeitig beim Leveln erledigt werden). JdD-Buff gewährt kein Ansehen." },
-            { id = "4e99ff6e", text = "Hinweis: Nur das Champion-Ansehen-Schmuckstück der Singularität ist im Frühen Zugang verfügbar – die anderen werden entweder am Montag nach dem offiziellen Release oder nach dem wöchentlichen Reset jeder Region freigeschaltet." }, -- ⚠️ UNVERIFIED
+            { id = "8bf4f442", text = "Schließe den Erfolg 'Midnight-Geschichtsjäger' für Ruhm ab - siehe Dokument für Anleitung" }, -- ⚠️ UNVERIFIED
+            { id = "c886190c", text = "Schließe den Erfolg 'Höchste Gipfel' für Ruhm ab - siehe Dokument für Anleitung" }, -- ⚠️ UNVERIFIED
+            { id = "f9b8eb01", text = "Schließe Nebenquestreihen für Ruhm ab. (kann auf Twinks erledigt werden, um gleichzeitig zu leveln). DMF-Buff gibt keinen Ruhm." },
+            { id = "fc025216", text = "Hinweis: Nur das Ruhm-Trinket des Singularitäts-Champions ist im Early Access verfügbar - die anderen werden entweder Montag nach dem offiziellen Start oder nach dem wöchentlichen Reset jeder Region verfügbar." }, -- ⚠️ UNVERIFIED
         },
     },
 
@@ -41,10 +41,10 @@ local DATASET = {
         title = "Vorsaison Woche 1 - 3. März - M0s",
         items = {
             { id = "c3de7d35", text = "Keine Wappen ausgeben, bis es angewiesen wird" },
-            { id = "fe628d60", text = "Ansehen bei 'Die Singularität' auf Rang 7 erhöhen für 1/6-Champion-Schmuckstück - available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "9b594c78", text = "Ansehen bei Hara'ti auf Rang 8 erhöhen für 1/6-Champion-Gürtel - not available in early access? - comes from quest from the renown vendor (not purchased)" },
-            { id = "6c01e9d5", text = "Ansehen bei Silbermond auf Rang 9 erhöhen für 1/6-Champion-Helm - NOT available in early access - comes from quest from the renown vendor (not purchased)" },
-            { id = "484f13d6", text = "Ansehen beim Amani-Stamm auf Rang 9 erhöhen für 1/6-Champion-Halskette - not available in early access? - comes from quest from the renown vendor (not purchased)" },
+            { id = "6b199064", text = "Erhöhe den Ruhm der Singularität auf Rang 7 für 1/6 Champions-Trinket - im Early Access verfügbar - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
+            { id = "2a9b4f4c", text = "Erhöhe den Ruhm von Hara'ti auf Rang 8 für 1/6 Champions-Gürtel - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" }, -- ⚠️ UNVERIFIED
+            { id = "6f39070d", text = "Erhöhe den Ruhm von Silbermond auf Rang 9 für 1/6 Champions-Helm - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" },
+            { id = "6ba4afc1", text = "Erhöhe den Ruhm des Amani-Stamms auf Rang 9 für 1/6 Champions-Halskette - NICHT IM EARLY ACCESS VERFÜGBAR - kommt von einer Quest vom Ruhmhändler (nicht gekauft)" },
             { id = "e326ed96", text = "Wöchentliches Saltheril-Fest im Immergrünen Wald abschließen." },
             { id = "da2fa0ef", text = "Wöchentliches Überfluss-Ereignis in Zul'Aman abschließen." },
             { id = "dbc8384b", text = "Wöchentliches Legenden der Haranir-Ereignis in Harandar abschließen." },
@@ -83,7 +83,7 @@ local DATASET = {
         items = {
             { id = "c3de7d35", text = "Keine Wappen ausgeben, bis es angewiesen wird" },
             { id = "5b379666", text = "LFR für Tier-Teile machen (Guide lesen warum)" },
-            { id = "dd71541a", text = "(Optional?) Welttour der M0-Dungeons abschließen – Champion-Gs" }, -- ⚠️ UNVERIFIED
+            { id = "1e5c80bc", text = "(Optional?) Schließe eine Welttournee von M0-Dungeons ab - belohnt Champions-Gegenstandsstufe" },
             { id = "123747cb", text = "4x Albtraum-Beute für Champion-Ausrüstung und Ansehen abschließen." },
             { id = "dc0e2686", text = "Weltboss töten für Champion 2/6 250-Gs-Item" },
             { id = "3e0dfde7", text = "Falls verfügbar: PvP-Quest für garantierten Helden-Hals/-Ring abschließen" },
