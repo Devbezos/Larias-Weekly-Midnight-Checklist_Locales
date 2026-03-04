@@ -1,9 +1,10 @@
 --[[
-English (enUS) checklist data for Larias's Weekly Checklist
+Chinese Simplified (zhCN) checklist data for Larias's Weekly Checklist
 
-NOTE: This is the canonical enUS dataset; other locales must keep IDs identical
-so completion tracking stays consistent across locales.
+NOTE: IDs are kept identical to the enUS dataset so completion tracking stays consistent
+across locales.
 ]]
+if GetLocale() ~= "zhCN" and not _G["LARIASWEEKLYCHECKLIST_LOAD_ALL_LOCALES"] then return end
 
 -- @sheet-version: 14
 

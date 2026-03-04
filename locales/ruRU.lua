@@ -116,6 +116,7 @@ local STRINGS = {
     MINIMAP_TOOLTIP_MIDDLE_CLICK_ILVL = "Средняя кнопка: Уровни предметов",
 
     -- Main window
+    TAB_LIST = "Список",
     TAB_OPTIONS = "Настройки",
     CHANGE_WEEK_BUTTON = "Сменить неделю",
     ILVLREF_BUTTON = "Уровни предметов",

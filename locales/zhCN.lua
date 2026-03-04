@@ -1,3 +1,9 @@
+--[[
+Chinese Simplified (zhCN) strings for Larias's Weekly Checklist
+]]
+if GetLocale() ~= "zhCN" and not _G["LARIASWEEKLYCHECKLIST_LOAD_ALL_LOCALES"] then return end
+
+local LOCALE = "zhCN"
 local LOCALE_REGISTRY_KEY = "LARIASWEEKLYCHECKLIST_LOCALE_REGISTRY"
 
 local reg = _G[LOCALE_REGISTRY_KEY]
@@ -7,11 +13,11 @@ if type(reg) ~= "table" then
 end
 if type(reg.strings) ~= "table" then reg.strings = {} end
 
-reg.strings["zhCN"] = reg.strings["zhCN"] or {}
-local L = reg.strings["zhCN"]
+reg.strings[LOCALE] = reg.strings[LOCALE] or {}
+local L = reg.strings[LOCALE]
 
 local STRINGS = {
-	DISPLAY_NAME = "每周清单",
+	DISPLAY_NAME = "Larias's 每周清单",
 
 	-- Update popup
 	UPDATE_AVAILABLE_TEXT = "有新版本可用",
@@ -66,7 +72,7 @@ local STRINGS = {
 	COLOR_PICKER_TEXT           = "文字",
 	COLOR_PICKER_HDR            = "标题",
 	-- Status banner (shown below the slider row)
-	STATUS_SHEET_UPDATE_FMT      = "检测到插件更新 - 你落后于插件%d个版本",
+	STATUS_SHEET_UPDATE_FMT      = "检测到电子表格更新 - 你落后于电子表格%d个版本",
 	STATUS_NO_TRANSLATION_FMT    = "没有适用于%s的翻译。欢迎贡献！",
 	STATUS_TRANSLATION_NOTICE    = "英文是最新的语言。你的本地化文件可能略有滞后。",
 	-- Tracking panel header tooltips
@@ -82,8 +88,17 @@ local STRINGS = {
 	TRACKING_NA = "无",
 
 	TRACKING_SPARKS_LABEL = "火花",
-	TRACKING_CREST_LABEL  = "纹章",
-	TRACKING_DONE = "完成",
+	TRACKING_CREST_LABEL        = "纹章",
+	TRACKING_CREST_ID_LABEL_FMT = "纹章 %s：",
+	TRACKING_CREST_NAMES_BY_ID  = {
+		[3383] = "冒险者",
+		[3341] = "老兵",
+		[3343] = "勇士",
+		[3345] = "英雄",
+		[3347] = "神话",
+	},
+	TRACKING_DONE     = "完成",
+	TRACKING_NOT_DONE = "未完成",
 
 	TRACKING_QUEST_DELVERS_BOUNTY = "探寻者的赏赐",
 	TRACKING_QUEST_WEEKLY_PREY = "每周猎物",
@@ -93,6 +108,7 @@ local STRINGS = {
 	TRACKING_CONVERT_TOOLTIP = "通过转换之前的纹章你将获得的纹章数量",
 
 	TRACKING_CATALYST_LABEL = "化生台",
+	TRACKING_INF            = "无限",
 
 	-- Minimap tooltip
 	MINIMAP_TOOLTIP_LEFT_CLICK_TOGGLE = "左键点击：切换清单",
@@ -100,6 +116,7 @@ local STRINGS = {
 	MINIMAP_TOOLTIP_MIDDLE_CLICK_ILVL = "中键点击：物品等级参考",
 
 	-- Main window
+	TAB_LIST    = "清单",
 	TAB_OPTIONS = "选项",
 	CLOSE               = "关闭",
 	CHANGE_WEEK_BUTTON  = "更换周",
@@ -158,7 +175,9 @@ local STRINGS = {
 	ILVLREF_TOGGLE_SHRINK = "缩小",
 
 	-- Slash commands
-	SLASH_USAGE_TOGGLE = "用法：/larias 或 /lcl 来切换清单",
+	SLASH_USAGE_TOGGLE   = "用法：/larias 或 /lcl 来切换清单",
+	SLASH_USAGE_LOCALE   = "用法：/larias locale auto|enUS|deDE|esES|esMX|frFR|itIT|ptBR|ruRU|koKR|zhCN",
+	SLASH_LOCALE_SET_FMT = "语言已设置为 %s。（生效：%s）",
 }
 
 for key, value in pairs(STRINGS) do

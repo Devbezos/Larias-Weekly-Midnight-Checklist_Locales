@@ -115,6 +115,7 @@ local STRINGS = {
     MINIMAP_TOOLTIP_MIDDLE_CLICK_ILVL = "Clic milieu : Niveaux d'objet",
 
     -- Main window
+    TAB_LIST = "Liste",
     TAB_OPTIONS = "Options",
 
     CHANGE_WEEK_BUTTON = "Changer de semaine",

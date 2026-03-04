@@ -115,6 +115,7 @@ local STRINGS = {
     MINIMAP_TOOLTIP_MIDDLE_CLICK_ILVL = "Mittelklick: Gegenstandsstufen",
 
     -- Main window
+    TAB_LIST = "Liste",
     TAB_OPTIONS = "Optionen",
     CHANGE_WEEK_BUTTON = "Woche wechseln",
     ILVLREF_BUTTON = "Gegenstandsstufen anzeigen",

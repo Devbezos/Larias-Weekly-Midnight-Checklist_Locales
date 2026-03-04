@@ -61,6 +61,7 @@ local STRINGS = {
     COLOR_PICKER_HDR            = "Intestazione", -- ⚠️ UNVERIFIED
     -- Status banner
     STATUS_UPDATE_AVAILABLE_FMT = "Aggiornamento disponibile! Hai %s, il più recente è %s.", -- ⚠️ UNVERIFIED
+    STATUS_SHEET_UPDATE_FMT     = "Aggiornamento foglio rilevato – sei %d versione/i indietro", -- ⚠️ UNVERIFIED
     STATUS_NO_TRANSLATION_FMT   = "Nessuna traduzione disponibile per %s. Considera di contribuire!", -- ⚠️ UNVERIFIED
     STATUS_TRANSLATION_NOTICE   = "L'inglese è la lingua più aggiornata. La tua lista potrebbe essere leggermente obsoleta.", -- ⚠️ UNVERIFIED
     UI_OPACITY_LABEL            = "Opacità",
@@ -114,6 +115,7 @@ local STRINGS = {
     MINIMAP_TOOLTIP_MIDDLE_CLICK_ILVL = "Clic centrale: Livelli oggetto",
 
     -- Main window
+    TAB_LIST = "Lista",
     TAB_OPTIONS = "Opzioni",
     CHANGE_WEEK_BUTTON = "Cambia settimana",
     ILVLREF_BUTTON = "Vedi livelli oggetto",
