@@ -1,0 +1,14 @@
+name: Test – Receive Dispatch (no-op)
+
+on:
+  repository_dispatch:
+    types: [test-dispatch]
+
+permissions: {}
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Acknowledge dispatch
+        run: echo "Dispatch received from main repo. Nothing to do."
