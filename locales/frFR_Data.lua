@@ -73,8 +73,8 @@ local DATASET = {
         items = {
             { id = "18fb09f9", text = "Économisez 160 crêtes de Vétéran pour fabriquer 2 objets de Vétéran avec Embellissements (Ceux-ci ne nécessitent pas d'Étincelles)" },
             { id = "907d099d", text = "Note spéciale pour les classes à double maniement - vous pouvez probablement fabriquer maintenant. Consultez le Guide pour savoir quoi fabriquer et quand." },
-            { id = "75c5fe6e", text = "Si pas terminé, continuez à augmenter la renommée pour les pièces champion" },
-            { id = "1f299f34", text = "Complétez la quête hebdomadaire Étincelles de guerre du donneur de quêtes JcJ dans le sud de Lune-d'argent. Elle n'affiche pas d'étincelle en récompense mais en donne une. Les quêtes mondiales donnent 25% de progression, les trésors en donnent aussi. Vous devez activer le mode guerre." },
+            { id = "0d50e744", text = "NA : Blizzard a ajouté via correctif une quête d'étincelle PvE de Liadrin. Si vous avez déjà fait celle en JcJ, vous pouvez ignorer celle-ci car elle ne donne pas une quatrième étincelle. Si vous n'avez complété aucune quête d'étincelle cette semaine, faites celle de Liadrin pour votre troisième étincelle." },
+            { id = "ab127896", text = "EU : Après votre réinitialisation, complétez la quête hebdomadaire de Liadrin pour une étincelle." },
             { id = "5fd1b2ad", text = "NE FAITES PAS la quête JcJ pour l'anneau/amulette héroïque. Vous ne pouvez pas terminer la série de quêtes avant l'ouverture des m+" },
             { id = "9626318e", text = "(Optionnel) Terminez la quête de donjon hebdomadaire d'Halduron Aile-Brillante pour 1000 renommée" },
             { id = "8b55f0c7", text = "(Optionnel) Complétez la Soirée de Saltheril hebdomadaire dans les Bois des Chants éternels." },

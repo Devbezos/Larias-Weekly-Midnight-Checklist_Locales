@@ -73,8 +73,8 @@ local DATASET = {
         items = {
             { id = "18fb09f9", text = "Guarda 160 emblemas de Veterano para fabricar 2 objetos de Veterano con Adornos (Estos no consumen Chispas)" },
             { id = "907d099d", text = "Nota especial para clases de doble empuñadura - probablemente puedas fabricar ahora. Consulta la Guía sobre qué y cuándo fabricar." },
-            { id = "75c5fe6e", text = "Si no está completo, continúa subiendo reputación para piezas de campeón" },
-            { id = "1f299f34", text = "Completa la misión semanal Chispas de Guerra del dador de misiones JcJ en el sur de Luna Argenta. No muestra una chispa como recompensa pero sí da una. Las misiones del mundo dan 25% de progreso, los tesoros también dan algo. Debes tener el modo guerra activado." },
+            { id = "0d50e744", text = "NA: Blizzard ha aplicado una corrección urgente añadiendo una misión de chispa JcE de Liadrin. Si ya has completado la de JcJ, puedes omitir esta ya que no otorga una cuarta chispa. Si no has completado ninguna misión de chispa esta semana, completa la de Liadrin para obtener tu tercera chispa." },
+            { id = "ab127896", text = "EU: Después del reinicio, completa la misión semanal de Liadrin para obtener una chispa." },
             { id = "5fd1b2ad", text = "NO HAGAS la misión JcJ del anillo/amuleto heroico. No puedes terminar la cadena de misiones hasta después de que se abran las mazmorras m+" },
             { id = "9626318e", text = "(Opcional) Completa la misión semanal de mazmorras de Halduron Ala Luminosa para 1000 de renombre" },
             { id = "8b55f0c7", text = "(Opcional) Completa el evento semanal Velada de Saltheril en el Bosque Canción Eterna." },

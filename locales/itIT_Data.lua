@@ -73,8 +73,8 @@ local DATASET = {
         items = {
             { id = "18fb09f9", text = "Conserva 160 stemmi Veterano per creare 2 oggetti Veterano con Abbellimenti (questi non richiedono Scintille)" },
             { id = "907d099d", text = "Nota speciale per le classi dual wield - probabilmente puoi creare ora. Controlla la Guida per cosa e quando creare." },
-            { id = "75c5fe6e", text = "Se non completato, continua ad aumentare la reputazione per i pezzi campione" },
-            { id = "1f299f34", text = "Completa la missione settimanale Scintille di Guerra dal fornitore di missioni PvP a Lunargenta Sud. Non mostra una scintilla come ricompensa ma ne dà una. Le missioni mondiali danno il 25% di completamento, anche i tesori ne danno un po'. Devi avere la modalità guerra attiva." },
+            { id = "0d50e744", text = "NA: Blizzard ha corretto con un hotfix una missione PvE per una scintilla da Liadrin. Se hai già completato quella PvP, puoi saltare questa poiché non dà una quarta scintilla. Se non hai completato nessuna missione per scintilla questa settimana, completa quella di Liadrin per la tua terza scintilla." },
+            { id = "ab127896", text = "EU: Dopo il reset, completa la missione settimanale di Liadrin per una scintilla." },
             { id = "5fd1b2ad", text = "NON FARE la missione PvP per l'anello/amuleto eroico. Non puoi finire la catena di missioni fino a dopo l'apertura di m+" },
             { id = "9626318e", text = "(Opzionale) Completa la missione settimanale della spedizione da Halduron Alasolare per 1000 rinomanza" },
             { id = "8b55f0c7", text = "(Opzionale) Completa il Soirée di Saltheril settimanale nei Boschi di Cantosole." }, -- ⚠️ UNVERIFIED

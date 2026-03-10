@@ -73,8 +73,8 @@ local DATASET = {
         items = {
             { id = "18fb09f9", text = "Guarde 160 insígnias Veteranas para criar 2x itens Veteranos com Embelezamentos (Estes não usam Faíscas)" },
             { id = "907d099d", text = "Nota especial para classes de duas armas - você provavelmente pode criar agora. Consulte o Guia para saber o que e quando criar." },
-            { id = "75c5fe6e", text = "Se não concluído, continue elevando o renome para peças campeã" },
-            { id = "1f299f34", text = "Complete a missão semanal Centelhas da Guerra do fornecedor de missões JxJ no Sul de Silvermoon. Ela não mostra uma centelha como recompensa mas concede uma. Missões mundiais dão 25% de conclusão, tesouros também dão um pouco. Deve estar com modo de guerra ativado." }, -- ⚠️ UNVERIFIED
+            { id = "0d50e744", text = "NA: A Blizzard aplicou um hotfix adicionando uma missão de centelha PvE da Liadrin. Se você já completou a de PvP, pode pular esta, pois ela não dá uma quarta centelha. Se você não completou nenhuma missão de centelha esta semana, faça a da Liadrin para obter sua terceira centelha." },
+            { id = "ab127896", text = "EU: Após a reinicialização, complete a missão semanal da Liadrin para obter uma centelha." },
             { id = "5fd1b2ad", text = "NÃO FAÇA a missão JxJ do anel/amuleto heroico. Você não pode terminar a linha de missões até depois que m+ abrir" },
             { id = "9626318e", text = "(Opcional) Complete a missão semanal de masmorra de Halduron Asa Luminosa para 1000 de renome" },
             { id = "8b55f0c7", text = "(Opcional) Complete o semanal Sarau de Saltheril na Floresta de Canção Eterna." },

@@ -73,8 +73,8 @@ local DATASET = {
         items = {
             { id = "18fb09f9", text = "Spare 160 Veteranenwappen für die Herstellung von 2x Veteranengegenständen mit Verzierungen (Diese benötigen keine Funken)" },
             { id = "907d099d", text = "Besonderer Hinweis für Klassen mit beidhändigem Kampf - du kannst wahrscheinlich jetzt herstellen. Prüfe den Leitfaden, was und wann hergestellt werden soll." },
-            { id = "75c5fe6e", text = "Falls nicht abgeschlossen: weiter Ansehen für Champion-Teile erhöhen" },
-            { id = "1f299f34", text = "Schließe die wöchentliche Quest 'Funken des Krieges' vom PvP-Questgeber in Süd-Silbermond ab. Sie zeigt keinen Funken als Belohnung an, gibt aber einen. Weltquests geben 25% Fortschritt, Schätze geben auch etwas. Kriegsmodus muss aktiviert sein." },
+            { id = "0d50e744", text = "NA: Blizzard hat per Hotfix eine PvE-Funkenquest von Liadrin hinzugefügt. Wenn du bereits die PvP-Quest abgeschlossen hast, kannst du diese überspringen, da sie keinen vierten Funken gibt. Wenn du diese Woche noch keine Funkenquest abgeschlossen hast, mache die Liadrin-Quest für deinen dritten Funken." },
+            { id = "ab127896", text = "EU: Nach deinem Reset, schließe die Wochenquest von Liadrin für einen Funken ab." },
             { id = "5fd1b2ad", text = "Mache NICHT die PvP-Quest für den heroischen Ring/das heroische Amulett. Du kannst die Questreihe nicht beenden, bevor M+ öffnet" },
             { id = "9626318e", text = "(Optional) Schließe die wöchentliche Verliesquest von Halduron Brightwing für 1000 Ruhm ab" },
             { id = "8b55f0c7", text = "(Optional) Schließe das wöchentliche Saltherils Soiree im Immersangwald ab." },
