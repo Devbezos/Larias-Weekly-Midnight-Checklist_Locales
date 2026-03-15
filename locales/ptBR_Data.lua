@@ -73,6 +73,7 @@ local DATASET = {
         items = {
             { id = "79c35167", text = "Guarde 160 insígnias Veterano para criação - veja as instruções mais abaixo (Estas não requerem Centelhas)" },
             { id = "b4de098c", text = "Nota especial para classes de armas duplas - você provavelmente já pode criar seu item de centelha. Consulte o Guia para o que e quando criar." },
+            { id = "d8f307f2", text = "Alerta de atualização do guia de texto: Atualizei os conselhos de criação de Centelha para todas as classes. Recomendo fortemente que você Verifique o Guia com as novas informações." },
             { id = "0d50e744", text = "NA: A Blizzard aplicou um hotfix adicionando uma missão de centelha PvE da Liadrin. Se você já completou a de PvP, pode pular esta, pois ela não dá uma quarta centelha. Se você não completou nenhuma missão de centelha esta semana, faça a da Liadrin para obter sua terceira centelha." },
             { id = "ab127896", text = "EU: Após a reinicialização, complete a missão semanal da Liadrin para obter uma centelha." },
             { id = "5fd1b2ad", text = "NÃO FAÇA a missão JxJ do anel/amuleto heroico. Você não pode terminar a linha de missões até depois que m+ abrir" },
@@ -97,7 +98,7 @@ local DATASET = {
         title = "Temporada 1 Semana 1 - 17 de Mar - Semana Heroica, 2ª criação",
         items = {
             { id = "791379ba", text = "Não gaste nenhuma Insígnia Heroica ou Mítica até ser instruído a fazê-lo. Consulte o Guia para entender por que guardamos insígnias." },
-            { id = "128e2f0b", text = "Nota especial para Guerreiros Fúria - você provavelmente já pode criar seu item de centelha. Consulte o Guia para o que e quando criar." },
+            { id = "9767aed2", text = "Quase todos provavelmente podem criar seu item de centelha agora. Verifique o Guia para o que e quando criar." },
             { id = "e66847d8", text = "Faça LFR para peças de conjunto - obter o bônus de 4 peças permitirá que cargas do catalisador caiam de todo o conteúdo" },
             { id = "e0ecce24", text = "Complete a missão de evento mundial semanal para baú pináculo e faísca da Lady Liadrin" },
             { id = "9686fde4", text = "Complete a missão semanal de moradia de Vaeli para ?insígnias heroicas? (será atualizado quando for ao ar)" }, -- ⚠️ UNVERIFIED
@@ -111,9 +112,9 @@ local DATASET = {
             { id = "f3eb6555", text = "Se Presa do Pesadelo tiver uma missão semanal para um item de trilha Herói, faça isso também." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Mate o Chefe Mundial para item campeão 2/6 de nível 250" },
             { id = "b6846065", text = "Faça delves abundantes nível 8 ou superior, use mapa em delve nível 8+ - enquanto faz isso, desbloqueie delves nível 11" },
-            { id = "e796ddb6", text = "Ainda não confirmado - preencha seu cofre em todos os espaços para múltiplas chances de itens de conjunto na próxima semana." },
+            { id = "bf5d2e12", text = "Preencha seu cofre em todos os espaços para múltiplas chances de itens de nível heroico na próxima semana." },
             { id = "4820451a", text = "(Opcional) Novo: Se você farmou honra e obteve sua Heráldica do Gladiador Galáctico e Cravações do Joalheiro Galáctico (veja acima), fabrique Braçadeiras e Cinturão em nível de item 246 e adicione um engaste a eles. Estes itens podem receber adornos - se você fabricou uma arma com um adorno, coloque apenas um adorno nestes. Se você não fabricou uma arma, coloque 2x adornos neles. Estes itens são equivalentes a 1/6 de trilha Campeão com um engaste e você pode usar estes por algumas semanas na temporada. Nível de item confirmado como 1/6 campeão." }, -- ⚠️ UNVERIFIED
-            { id = "3fb16dbb", text = "Se você não farmou honra para itens PvP ou você faz raide na terça-feira e não tem tempo suficiente para fabricar os itens PvP, então ANTES DA RAIDE, fabrique 2x peças de 246 ilvl com adornos em slots fracos, usando 160 Insígnias Veteranas. ESSAS NÃO REQUEREM CENTELHAS. Os itens que você está fabricando são os itens de qualidade azul na bancada de fabricação nos quais você insere 80x Insígnias Veteranas para aumentar seu ilvl. Verifique o Guia para mais informações. Também pode pedir ajuda no Discord se precisar." },
+            { id = "2e0ae86e", text = "Se você não farmou honra para itens PvP, então ANTES DA RAIDE, crie 1x-2x peças de nível de item 246 com adornos em espaços fracos, usando 80-160 Brasões Veteranos. ESTES NÃO USAM CENTELHAS. Os itens que você está criando são os itens de qualidade azul na bancada de criação nos quais você insere 80x Brasões Veteranos para aumentar seu nível de item. Verifique o Guia para mais informações. Também pode perguntar no Discord se precisar de ajuda." },
             { id = "146b7d62", text = "Depois de fazer o máximo possível acima, mas ANTES da raide, gaste todas as Insígnias de Aventureiro, Veterano e Campeão melhorando qualquer coisa. Não gaste insígnias Heroicas ou Míticas." },
             { id = "8824d048", text = "Rastreie insígnias gastas: 0/100 Heroica, 0/100 Mítica" },
         },

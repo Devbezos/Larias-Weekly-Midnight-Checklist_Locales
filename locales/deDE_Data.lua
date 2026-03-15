@@ -73,6 +73,7 @@ local DATASET = {
         items = {
             { id = "79c35167", text = "Spare 160 Veteranenwappen für die Herstellung - siehe weiter unten für Anweisungen (Diese benötigen keine Funken)" },
             { id = "b4de098c", text = "Besonderer Hinweis für Klassen mit Zweihandführung - du kannst wahrscheinlich jetzt deinen Funkengegenstand herstellen. Prüfe den Leitfaden für was und wann du herstellen solltest." },
+            { id = "d8f307f2", text = "Textleitfaden-Update-Warnung: Ich habe die Funken-Herstellungsempfehlungen für jede einzelne Klasse aktualisiert. Ich empfehle dringend, den Leitfaden mit den neuen Informationen zu überprüfen." },
             { id = "0d50e744", text = "NA: Blizzard hat per Hotfix eine PvE-Funkenquest von Liadrin hinzugefügt. Wenn du bereits die PvP-Quest abgeschlossen hast, kannst du diese überspringen, da sie keinen vierten Funken gibt. Wenn du diese Woche noch keine Funkenquest abgeschlossen hast, mache die Liadrin-Quest für deinen dritten Funken." },
             { id = "ab127896", text = "EU: Nach deinem Reset, schließe die Wochenquest von Liadrin für einen Funken ab." },
             { id = "5fd1b2ad", text = "Mache NICHT die PvP-Quest für den heroischen Ring/das heroische Amulett. Du kannst die Questreihe nicht beenden, bevor M+ öffnet" },
@@ -97,7 +98,7 @@ local DATASET = {
         title = "Saison 1 Woche 1 - 17. März - Heroische Woche, 2. Herstellung",
         items = {
             { id = "791379ba", text = "Gib keine heroischen oder mythischen Wappen aus, bis es dir gesagt wird. Prüfe den Leitfaden, warum wir Wappen zurückhalten." },
-            { id = "128e2f0b", text = "Besonderer Hinweis für Furorkrieger - du kannst wahrscheinlich jetzt deinen Funkengegenstand herstellen. Prüfe den Leitfaden für was und wann du herstellen solltest." },
+            { id = "9767aed2", text = "Fast jeder kann wahrscheinlich jetzt deinen Funkengegenstand herstellen. Prüfe den Leitfaden für was und wann hergestellt werden soll." },
             { id = "e66847d8", text = "Mache LFR für Setteile - das Erhalten eines 4er-Setbonus ermöglicht es, dass Katalysatorladungen aus allen Inhalten droppen" },
             { id = "e0ecce24", text = "Schließe die wöchentliche Weltereignisquest für Gipfelcache und Funken von Lady Liadrin ab" },
             { id = "9686fde4", text = "Schließe die wöchentliche Behausungsquest von Vaeli für ?Heldenwappen? ab (wird aktualisiert, wenn es live geht)" },
@@ -111,9 +112,9 @@ local DATASET = {
             { id = "f3eb6555", text = "Wenn Albtraumbeute eine wöchentliche Quest für einen Heldengegenstand hat, mache diese ebenfalls." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Töte den Weltboss für Champion 2/6 Gegenstand mit Gegenstandsstufe 250" },
             { id = "b6846065", text = "Mache T8 oder höhere ertragreiche Tiefen, benutze Karte auf T8+-Tiefe - während du das machst, schalte T11-Tiefen frei" },
-            { id = "e796ddb6", text = "Noch nicht bestätigt - fülle deine Truhe in jedem Slot für mehrere Chancen auf Setteile nächste Woche." },
+            { id = "bf5d2e12", text = "Fülle deine Truhe in jedem Slot für mehrere Chancen auf Heldenstufen-Gegenstände nächste Woche." },
             { id = "4820451a", text = "(Optional) Neu: Falls du Ehre gefarmt hast und deine Heraldik des Galaktischen Gladiators und Sockel des Galaktischen Juweliers erhalten hast (siehe oben), stelle Armschienen und Gürtel mit 246 Gegenstandsstufe her und füge einen Sockel hinzu. Diese Gegenstände können Verschönerungen aufnehmen - falls du eine Waffe mit einer Verschönerung hergestellt hast, verwende nur eine Verschönerung auf diesen. Falls du keine Waffe hergestellt hast, verwende 2x Verschönerungen auf ihnen. Diese Gegenstände entsprechen 1/6 Championsspur mit einem Sockel und du kannst diese für einige Wochen in der Saison verwenden. Gegenstandsstufe bestätigt als 1/6 Champion." }, -- ⚠️ UNVERIFIED
-            { id = "3fb16dbb", text = "Wenn du keine Ehre für PvP-Gegenstände gefarmt hast oder du am Dienstag raidest und nicht genug Zeit hast, die PvP-Gegenstände herzustellen, dann stelle VOR DEM RAID 2x Gegenstände mit Gegenstandsstufe 246 und Verzierungen auf schwachen Slots her, mit 160 Veteraneninsignien. DIESE BENÖTIGEN KEINE FUNKEN. Die Gegenstände, die du herstellst, sind die blauen Qualitätsgegenstände an der Herstellungsbank, in die du 80x Veteraneninsignien einfügst, um ihre Gegenstandsstufe zu erhöhen. Prüfe den Guide für weitere Informationen. Du kannst auch im Discord um Hilfe bitten, wenn du sie brauchst." }, -- ⚠️ UNVERIFIED
+            { id = "2e0ae86e", text = "Wenn du keine Ehre für PvP-Gegenstände gefarmt hast, stelle VOR DEM SCHLACHTZUG 1x-2x 246 Gegenstandsstufen-Teile mit Verzierungen für schwache Slots her, indem du 80-160 Veteranenabzeichen verwendest. DIESE BENÖTIGEN KEINE FUNKEN. Die Gegenstände, die du herstellst, sind die Gegenstände mit blauer Qualität an der Herstellungsbank, in die du 80x Veteranenabzeichen einfügst, um ihre Gegenstandsstufe zu erhöhen. Prüfe den Leitfaden für weitere Informationen. Du kannst auch im Discord um Hilfe bitten, falls du sie brauchst." },
             { id = "146b7d62", text = "Nachdem du so viel wie möglich von oben erledigt hast, aber VOR dem Schlachtzug, gib alle Abenteurerwappen, Veteranenwappen und Championenwappen aus, um irgendetwas aufzuwerten. Gib keine Heroischen oder Mythischen Wappen aus." },
             { id = "8824d048", text = "Verfolge ausgegebene Wappen: 0/100 Heroisch, 0/100 Mythisch" },
         },

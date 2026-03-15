@@ -73,6 +73,7 @@ local DATASET = {
         items = {
             { id = "79c35167", text = "Économisez 160 crêtes de Vétéran pour l'artisanat - voir plus bas pour les instructions (Celles-ci ne nécessitent pas d'Étincelles)" },
             { id = "b4de098c", text = "Note spéciale pour les classes à double arme - vous pouvez probablement fabriquer votre objet à étincelle maintenant. Consultez le Guide pour savoir quoi et quand fabriquer." },
+            { id = "d8f307f2", text = "Alerte de mise à jour du guide texte : J'ai mis à jour les conseils de fabrication d'Étincelle pour chaque classe. Je recommande fortement de Consulter le Guide avec les nouvelles informations." },
             { id = "0d50e744", text = "NA : Blizzard a ajouté via correctif une quête d'étincelle PvE de Liadrin. Si vous avez déjà fait celle en JcJ, vous pouvez ignorer celle-ci car elle ne donne pas une quatrième étincelle. Si vous n'avez complété aucune quête d'étincelle cette semaine, faites celle de Liadrin pour votre troisième étincelle." },
             { id = "ab127896", text = "EU : Après votre réinitialisation, complétez la quête hebdomadaire de Liadrin pour une étincelle." },
             { id = "5fd1b2ad", text = "NE FAITES PAS la quête JcJ pour l'anneau/amulette héroïque. Vous ne pouvez pas terminer la série de quêtes avant l'ouverture des m+" },
@@ -97,7 +98,7 @@ local DATASET = {
         title = "Saison 1 Semaine 1 - 17 mars - Semaine Héroïque, 2e fabrication",
         items = {
             { id = "791379ba", text = "Ne dépensez aucune Crête héroïque ou mythique tant qu'on ne vous le dit pas. Consultez le Guide pour savoir pourquoi nous conservons les crêtes." },
-            { id = "128e2f0b", text = "Note spéciale pour les Guerriers Fureur - vous pouvez probablement fabriquer votre objet à étincelle maintenant. Consultez le Guide pour savoir quoi et quand fabriquer." },
+            { id = "9767aed2", text = "Presque tout le monde peut probablement fabriquer votre objet d'étincelle maintenant. Consultez le Guide pour savoir quoi et quand fabriquer." },
             { id = "e66847d8", text = "Faites le RDR pour les pièces de set - obtenir un bonus de 4 pièces permettra aux charges de catalyseur de tomber de tout le contenu" },
             { id = "e0ecce24", text = "Terminez la quête d'événement mondial hebdomadaire pour un cache apogée et une étincelle auprès de Dame Liadrin" },
             { id = "9686fde4", text = "Terminez la quête de logement hebdomadaire de Vaeli pour ?crêtes de héros? (sera mis à jour lors de la mise en ligne)" },
@@ -111,9 +112,9 @@ local DATASET = {
             { id = "f3eb6555", text = "Si Proie du cauchemar a une quête hebdomadaire pour un objet de piste Héros, faites-la également." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Tuez le Boss mondial pour objet de champion 2/6 ilvl 250" },
             { id = "b6846065", text = "Faites des Tréfonds abondants de palier 8 ou supérieur, utilisez la carte sur un Tréfonds palier 8+ - pendant ce temps, débloquez les Tréfonds palier 11" },
-            { id = "e796ddb6", text = "Pas encore confirmé - remplissez votre chambre forte dans chaque emplacement pour plusieurs chances d'obtenir des objets de set la semaine prochaine." },
+            { id = "bf5d2e12", text = "Remplissez votre coffre dans chaque emplacement pour plusieurs chances d'obtenir des objets de palier héroïque la semaine prochaine." },
             { id = "4820451a", text = "(Optionnel) Nouveau : Si vous avez farmé l'honneur et obtenu votre Héraldique du gladiateur galactique et vos Montures de joaillier galactique (voir ci-dessus), fabriquez des Brassards et une Ceinture au niveau d'objet 246 et ajoutez-leur un sertissage. Ces objets peuvent recevoir des ornementations - si vous avez fabriqué une arme avec une ornementation, ne mettez qu'une seule ornementation sur ceux-ci. Si vous n'avez pas fabriqué d'arme, mettez 2 ornementations dessus. Ces objets équivalent à 1/6 Champion avec un sertissage et vous pouvez les utiliser pendant quelques semaines en début de saison. Niveau d'objet confirmé à 1/6 champion." }, -- ⚠️ UNVERIFIED
-            { id = "3fb16dbb", text = "Si vous n'avez pas farmé d'honneur pour les objets JcJ ou que vous raidez le mardi et n'avez pas assez de temps pour fabriquer les objets JcJ, alors AVANT LE RAID, fabriquez 2 pièces de niveau d'objet 246 avec des ornementations sur des emplacements faibles, en utilisant 160 Crêtes de vétéran. CELLES-CI NE NÉCESSITENT PAS D'ÉTINCELLES. Les objets que vous fabriquez sont les objets de qualité bleue à l'établi de fabrication dans lesquels vous insérez 80 Crêtes de vétéran pour augmenter leur niveau d'objet. Consultez le Guide pour plus d'informations. Vous pouvez aussi demander de l'aide sur le Discord si vous en avez besoin." },
+            { id = "2e0ae86e", text = "Si vous n'avez pas farmé d'honneur pour des objets JcJ, alors AVANT LE RAID, fabriquez 1 à 2 pièces de niveau d'objet 246 avec embellissements sur les emplacements faibles, en utilisant 80 à 160 Crêtes de vétéran. CELLES-CI NE NÉCESSITENT PAS D'ÉTINCELLES. Les objets que vous fabriquez sont les objets de qualité bleue à l'établi d'artisanat dans lesquels vous insérez 80 Crêtes de vétéran pour augmenter leur niveau d'objet. Consultez le Guide pour plus d'informations. Vous pouvez également demander de l'aide sur le Discord si nécessaire." },
             { id = "146b7d62", text = "Après avoir fait autant que possible ci-dessus, mais AVANT le raid, dépensez toutes les Crêtes d'Aventurier, de Vétéran et de Champion pour améliorer n'importe quoi. Ne dépensez pas les crêtes Héroïques ou Mythiques." },
             { id = "8824d048", text = "Suivez les crêtes dépensées : 0/100 Héroïque, 0/100 Mythique" },
         },

@@ -73,6 +73,7 @@ local DATASET = {
         items = {
             { id = "79c35167", text = "Conserva 160 stemmi Veterano per la creazione di oggetti - vedi le istruzioni più avanti (Questi non richiedono Scintille)" },
             { id = "b4de098c", text = "Nota speciale per le classi con doppia arma - probabilmente puoi creare il tuo oggetto con scintilla ora. Controlla la Guida per cosa e quando creare." },
+            { id = "d8f307f2", text = "Avviso aggiornamento guida testuale: Ho aggiornato i consigli per la creazione con Scintilla per ogni singola classe. Consiglio vivamente di Controllare la Guida con le nuove informazioni." },
             { id = "0d50e744", text = "NA: Blizzard ha corretto con un hotfix una missione PvE per una scintilla da Liadrin. Se hai già completato quella PvP, puoi saltare questa poiché non dà una quarta scintilla. Se non hai completato nessuna missione per scintilla questa settimana, completa quella di Liadrin per la tua terza scintilla." },
             { id = "ab127896", text = "EU: Dopo il reset, completa la missione settimanale di Liadrin per una scintilla." },
             { id = "5fd1b2ad", text = "NON FARE la missione PvP per l'anello/amuleto eroico. Non puoi finire la catena di missioni fino a dopo l'apertura di m+" },
@@ -97,7 +98,7 @@ local DATASET = {
         title = "Stagione 1 Settimana 1 - 17 Mar - Settimana Eroica, 2° creazione",
         items = {
             { id = "791379ba", text = "Non spendere stemmi Eroici o Mitici finché non ti viene detto di farlo. Controlla la Guida per sapere perché conserviamo gli stemmi." },
-            { id = "128e2f0b", text = "Nota speciale per i Guerrieri Furia - probabilmente puoi creare il tuo oggetto con scintilla ora. Controlla la Guida per cosa e quando creare." },
+            { id = "9767aed2", text = "Quasi tutti possono probabilmente creare il tuo oggetto con scintilla ora. Controlla la Guida per cosa e quando creare." },
             { id = "e66847d8", text = "Fai LFR per pezzi del set - ottenere un bonus set da 4 pezzi permetterà alle cariche del catalizzatore di cadere da tutti i contenuti" },
             { id = "e0ecce24", text = "Completa la missione settimanale dell'evento mondiale per cache culminante e scintilla da Dama Liadrin" },
             { id = "9686fde4", text = "Completa la missione settimanale dell'abitazione da Vaeli per ?stemmi eroe? (verrà aggiornato quando sarà disponibile)" },
@@ -111,9 +112,9 @@ local DATASET = {
             { id = "f3eb6555", text = "Se Preda dell'Incubo ha una missione settimanale per un oggetto di livello Eroe, falla anche quella." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Uccidi il Boss Mondiale per oggetto 2/6 250 livello oggetto champ" },
             { id = "b6846065", text = "Fai ricognizioni abbondanti livello 8 o superiore, usa mappa su ricognizione livello 8+  - mentre fai questo, sblocca le ricognizioni livello 11" },
-            { id = "e796ddb6", text = "Non ancora confermato - riempi la tua cassa in ogni slot per molteplici possibilità di ottenere oggetti del set la prossima settimana." },
+            { id = "bf5d2e12", text = "Riempi il tuo forziere in ogni slot per avere più possibilità di ottenere oggetti di livello eroe la prossima settimana." },
             { id = "4820451a", text = "(Facoltativo) Nuovo: Se hai ottenuto onore e hai ottenuto la tua Araldica del Gladiatore Galattico e Incastonature del Gioielliere Galattico (vedi sopra), crea Bracciali e Cintura a 246 livello oggetto e aggiungi un'incastonatura a ciascuno. Questi oggetti possono avere abbellimenti - se hai creato un'arma con un abbellimento, metti solo un abbellimento su questi. Se non hai creato un'arma, metti 2x abbellimenti su di essi. Questi oggetti equivalgono a 1/6 Campione con un'incastonatura e puoi usarli per un paio di settimane nella stagione. Livello oggetto confermato essere 1/6 campione." },
-            { id = "3fb16dbb", text = "Se non hai farmato onore per oggetti PvP o raidi martedì e non hai abbastanza tempo per craftare gli oggetti PvP, allora PRIMA DEL RAID, crafta 2x pezzi livello oggetto 246 con abbellimenti su slot deboli, usando 160 Stemmi Veterano. QUESTI NON RICHIEDONO SCINTILLE. Gli oggetti che stai craftando sono gli oggetti di qualità blu al banco da crafting in cui inserisci 80x stemmi Veterano per aumentare il loro livello oggetto. Controlla la Guida per maggiori informazioni. Puoi anche chiedere nel Discord se hai bisogno di aiuto." }, -- ⚠️ UNVERIFIED
+            { id = "2e0ae86e", text = "Se non hai accumulato onore per oggetti JcJ, allora PRIMA DEL RAID, crea 1x-2x pezzi livello oggetto 246 con abbellimenti negli slot deboli, usando 80-160 Blasoni Veterani. QUESTI NON RICHIEDONO SCINTILLE. Gli oggetti che stai creando sono gli oggetti di qualità blu al banco da lavoro in cui inserisci 80x Blasoni Veterani per aumentare il loro livello oggetto. Controlla la Guida per maggiori informazioni. Puoi anche chiedere aiuto nel Discord se ne hai bisogno." },
             { id = "146b7d62", text = "Dopo aver fatto quanto più possibile sopra, ma PRIMA dell'incursione, spendi tutti gli Stemmi Avventuriero, Veterano e Campione per potenziare qualsiasi cosa. Non spendere stemmi Eroici o Mitici." },
             { id = "8824d048", text = "Traccia stemmi spesi: 0/100 Eroici, 0/100 Mitici" },
         },

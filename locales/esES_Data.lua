@@ -73,6 +73,7 @@ local DATASET = {
         items = {
             { id = "79c35167", text = "Guarda 160 blasones de Veterano para artesanía - consulta más abajo para obtener instrucciones (Estos no requieren Chispas)" },
             { id = "b4de098c", text = "Nota especial para clases de doble empuñadura - probablemente puedas fabricar tu objeto de chispa ahora. Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "d8f307f2", text = "Alerta de actualización de la guía de texto: He actualizado los consejos de fabricación de Chispa para todas y cada una de las clases. Muy recomendable que Consultes la Guía con la nueva información." },
             { id = "0d50e744", text = "NA: Blizzard ha aplicado una corrección urgente añadiendo una misión de chispa JcE de Liadrin. Si ya has completado la de JcJ, puedes omitir esta ya que no otorga una cuarta chispa. Si no has completado ninguna misión de chispa esta semana, completa la de Liadrin para obtener tu tercera chispa." },
             { id = "ab127896", text = "EU: Después del reinicio, completa la misión semanal de Liadrin para obtener una chispa." },
             { id = "5fd1b2ad", text = "NO HAGAS la misión JcJ del anillo/amuleto heroico. No puedes terminar la cadena de misiones hasta después de que se abran las mazmorras m+" },
@@ -97,7 +98,7 @@ local DATASET = {
         title = "Temporada 1 Semana 1 - 17 Mar - Semana Heroica, 2ª fabricación",
         items = {
             { id = "791379ba", text = "No gastes ningún Emblema Heroico o Mítico hasta que se te indique. Consulta la Guía sobre por qué guardamos emblemas." },
-            { id = "128e2f0b", text = "Nota especial para Guerreros Furia - probablemente puedas fabricar tu objeto de chispa ahora. Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "9767aed2", text = "Casi todo el mundo puede fabricar tu objeto de chispa ahora. Consulta la Guía para saber qué y cuándo fabricar." },
             { id = "e66847d8", text = "Haz BFB para piezas de conjunto - obtener un bonus de 4 piezas permitirá que caigan cargas de catalizador de todo el contenido" },
             { id = "e0ecce24", text = "Completa la misión semanal del evento mundial para alijo cumbre y chispa de Lady Liadrin" },
             { id = "9686fde4", text = "Completa la misión semanal de vivienda de Vaeli para ¿emblemas de héroe? (se actualizará cuando esté disponible)" },
@@ -111,9 +112,9 @@ local DATASET = {
             { id = "f3eb6555", text = "Si Presa de Pesadilla tiene una misión semanal para un objeto de banda Héroe, haz eso también." }, -- ⚠️ UNVERIFIED
             { id = "dc0e2686", text = "Mata al Jefe del Mundo para objeto 2/6 de campeón de nivel 250" },
             { id = "b6846065", text = "Haz profundidades abundantes de nivel 8 o superior, usa mapa en profundidad nivel 8+ - mientras haces esto, desbloquea profundidades nivel 11" },
-            { id = "e796ddb6", text = "Aún no confirmado - llena tu cámara en cada ranura para múltiples oportunidades de objetos de conjunto la próxima semana." },
+            { id = "bf5d2e12", text = "Llena tu cámara en cada ranura para múltiples oportunidades de obtener objetos de nivel héroe la próxima semana." },
             { id = "4820451a", text = "(Opcional) Nuevo: Si conseguiste honor y has obtenido tu heráldica del gladiador galáctico y engastes de joyero galáctico (ver arriba), fabrica brazales y cinturón a nivel de objeto 246 y añádeles un engarce. Estos objetos pueden llevar ornamentaciones - si fabricaste un arma con una ornamentación, pon solo una ornamentación en estos. Si no fabricaste un arma, pon 2x ornamentaciones en ellos. Estos objetos son el equivalente a 1/6 de vía Campeón con un engarce y puedes usarlos durante un par de semanas al inicio de la temporada. Nivel de objeto confirmado como 1/6 de campeón." },
-            { id = "3fb16dbb", text = "Si no conseguiste honor para objetos JcJ o haces incursión el martes y no tienes suficiente tiempo para fabricar los objetos JcJ, entonces ANTES DE LA INCURSIÓN, fabrica 2 piezas de 246 de nivel de objeto con adornos en huecos débiles, usando 160 Emblemas de veterano. ESTOS NO REQUIEREN CHISPAS. Los objetos que estás fabricando son los objetos de calidad azul en la mesa de fabricación en los que insertas 80 Emblemas de veterano para aumentar su nivel de objeto. Consulta la Guía para más información. También puedes preguntar en el Discord si necesitas ayuda." }, -- ⚠️ UNVERIFIED
+            { id = "2e0ae86e", text = "Si no has conseguido honor para objetos JcJ, entonces ANTES DE LA BANDA, fabrica 1x-2x piezas de nivel de objeto 246 con adornos en ranuras débiles, usando 80-160 Escudos de Veterano. ESTOS NO REQUIEREN CHISPAS. Los objetos que estás fabricando son los de calidad azul en la mesa de fabricación en los que insertas 80x Escudos de Veterano para aumentar su nivel de objeto. Consulta la Guía para más información. También puedes pedir ayuda en el Discord si la necesitas." },
             { id = "146b7d62", text = "Después de hacer todo lo anterior que puedas, pero ANTES de la incursión, gasta todos los Blasones de Aventurero, Veterano y Campeón mejorando cualquier cosa. No gastes blasones Heroicos o Míticos." },
             { id = "8824d048", text = "Seguimiento de emblemas gastados: 0/100 Heroico, 0/100 Mítico" },
         },
