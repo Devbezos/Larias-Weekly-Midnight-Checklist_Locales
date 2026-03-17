@@ -42,7 +42,7 @@ local DATASET = {
         title = "Pré-saison semaine 1 - 3 mars - M0",
         items = {
             { id = "79c35167", text = "Économisez 160 crêtes de Vétéran pour l'artisanat - voir plus bas pour les instructions (Celles-ci ne nécessitent pas d'Étincelles)" },
-            { id = "e8cef00e", text = "Consultez le Guide pour savoir quoi fabriquer et quand." },
+            { id = "e8cef00e", text = "Consultez le guide pour savoir quoi et quand fabriquer." },
             { id = "c06ee1a3", text = "Si vous êtes sur un reroll et ne voyez pas certaines de ces quêtes, allez voir Soridormi à l'auberge de Lune-d'Argent et choisissez « J'ai arrêté le Voidstorm » pour passer la campagne." }, -- ⚠️ UNVERIFIED
             { id = "755d27e7", text = "Élevez le renom de La Singularité au rang 7 pour un bijou de champion 1/6 - provient d'une quête du vendeur de renom" },
             { id = "f213fee8", text = "Élevez le renom des Hara'ti au rang 8 pour une ceinture de champion 1/6 - provient d'une quête du vendeur de renom" },
@@ -98,20 +98,22 @@ local DATASET = {
         title = "Saison 1 Semaine 1 - 17 mars - Semaine Héroïque, 2e fabrication",
         items = {
             { id = "791379ba", text = "Ne dépensez aucune Crête héroïque ou mythique tant qu'on ne vous le dit pas. Consultez le Guide pour savoir pourquoi nous conservons les crêtes." },
-            { id = "9767aed2", text = "Presque tout le monde peut probablement fabriquer votre objet d'étincelle maintenant. Consultez le Guide pour savoir quoi et quand fabriquer." },
+            { id = "fab7aef9", text = "Presque tout le monde peut probablement fabriquer votre objet d'étincelle maintenant. Consultez le guide pour savoir quoi et quand fabriquer." },
             { id = "e66847d8", text = "Faites le RDR pour les pièces de set - obtenir un bonus de 4 pièces permettra aux charges de catalyseur de tomber de tout le contenu" },
-            { id = "e0ecce24", text = "Terminez la quête d'événement mondial hebdomadaire pour un cache apogée et une étincelle auprès de Dame Liadrin" },
-            { id = "9686fde4", text = "Terminez la quête de logement hebdomadaire de Vaeli pour ?crêtes de héros? (sera mis à jour lors de la mise en ligne)" },
+            { id = "b5539926", text = "Terminez la quête d'événement mondial hebdomadaire pour le coffre apogée et l'étincelle auprès de Dame Liadrin - Faites l'Arcantina, cela prend 3 minutes" }, -- ⚠️ UNVERIFIED
+            { id = "091a44e6", text = "Terminez la quête de logement hebdomadaire auprès de Vaeli - la récompense est des armoiries plafonnées, peu importe ce que vous choisissez." }, -- ⚠️ UNVERIFIED
             { id = "1e1d846c", text = "Note : les deux prochaines choses sont liées - elles servent pour une petite amélioration - deux sertissages supplémentaires pour les deux premières semaines." },
-            { id = "a5b8839d", text = "(Optionnel) Nouveau : Terminez des matchs JcJ pour obtenir un objet de quête qui récompense 9x Héraldique du gladiateur galactique. Vous les utiliserez pour fabriquer les objets ci-dessous. Ne faites ceci que si vous avez ou allez farmer l'honneur pour les sertissages ci-dessous. Note : ceci est très min-max, c'est essentiellement pour 2 sertissages supplémentaires." }, -- ⚠️ UNVERIFIED
+            { id = "14637ac8", text = "(Optionnel) Nouveau : Terminez des matchs JcJ pour obtenir un objet de quête qui récompense 9x Héraldique du gladiateur galactique. Vous les utiliserez pour fabriquer des objets ci-dessous. Ne faites cela que si vous avez ou allez farmer l'honneur pour les châsses ci-dessous. Note : c'est très min-max, c'est essentiellement pour 2 châsses supplémentaires.\nL'arène est le plus rapide" }, -- ⚠️ UNVERIFIED
             { id = "a1884373", text = "(Optionnel) Nouveau : Achetez 2 Monture de joaillier galactique auprès du vendeur pour 5000 points d'honneur et 3 Héliotrope infusé chacune. Vous les utiliserez pour sertir les objets fabriqués ci-dessous. Ces objets n'apparaîtront pas chez le vendeur avant cette semaine. Ceci est très min-max, c'est essentiellement pour 2 sertissages supplémentaires." }, -- ⚠️ UNVERIFIED
             { id = "d8d237fa", text = "(Optionnel) Montez le classement JcJ à 1600 pour une charge de catalyseur (c'est la même charge de catalyseur partagée avec la cote M+ de 2 000 de la semaine suivante). Si vous obtenez 2 pièces de set de votre raid cette semaine, cela vous permettrait de catalyser 2 objets et de commencer à obtenir des charges de Catalyseur de vos m+ la semaine prochaine." },
             { id = "ef789b0b", text = "(Optionnel) Complétez un Tour du Monde des donjons M0. Ceux-ci récompenseront un ilvl de champion sur un verrouillage quotidien - NE VOUS ÉPUISEZ PAS ! M+ ouvre la semaine prochaine et remplacera tout cela." },
             { id = "d78939c6", text = "Tâche quotidienne : envisagez de faire un m0 spécifique qui lâche un excellent bijou pour vous chaque jour. L'objet sera de ilvl champion (raid normal) et pourrait être un bon boost pour le raid de la semaine prochaine si vous ne parvenez pas encore à le farmer en Héroïque." },
-            { id = "22842538", text = "Terminez 2 Proies cauchemardesques pour équipement de Champion sur chaque personnage" },
-            { id = "f3eb6555", text = "Si Proie du cauchemar a une quête hebdomadaire pour un objet de piste Héros, faites-la également." }, -- ⚠️ UNVERIFIED
-            { id = "dc0e2686", text = "Tuez le Boss mondial pour objet de champion 2/6 ilvl 250" },
+            { id = "05b7e462", text = "Terminez 4x Proie difficile pour débloquer Proie cauchemardesque." }, -- ⚠️ UNVERIFIED
+            { id = "099df4fa", text = "Terminez 3x Proie cauchemardesque pour de l'équipement de champion sur chaque personnage et pour terminer la quête hebdomadaire pour une carte" }, -- ⚠️ UNVERIFIED
+            { id = "cc5a28dd", text = "Terminez Nullaeus en difficulté ? pour 30 armoiries de héros non plafonnées. N'oubliez pas de ne pas les dépenser." }, -- ⚠️ UNVERIFIED
             { id = "b6846065", text = "Faites des Tréfonds abondants de palier 8 ou supérieur, utilisez la carte sur un Tréfonds palier 8+ - pendant ce temps, débloquez les Tréfonds palier 11" },
+            { id = "2f9c0f4f", text = "Utilisez votre objet d'invocation de boss de la quête hebdomadaire Proie cauchemardesque dans une Exploration de palier 8 pour obtenir une carte puis utilisez-la pour un objet de piste héroïque." }, -- ⚠️ UNVERIFIED
+            { id = "5ccc7694", text = "Tuez le boss mondial pour un objet de champion 3/6 ilvl 253" }, -- ⚠️ UNVERIFIED
             { id = "bf5d2e12", text = "Remplissez votre coffre dans chaque emplacement pour plusieurs chances d'obtenir des objets de palier héroïque la semaine prochaine." },
             { id = "4820451a", text = "(Optionnel) Nouveau : Si vous avez farmé l'honneur et obtenu votre Héraldique du gladiateur galactique et vos Montures de joaillier galactique (voir ci-dessus), fabriquez des Brassards et une Ceinture au niveau d'objet 246 et ajoutez-leur un sertissage. Ces objets peuvent recevoir des ornementations - si vous avez fabriqué une arme avec une ornementation, ne mettez qu'une seule ornementation sur ceux-ci. Si vous n'avez pas fabriqué d'arme, mettez 2 ornementations dessus. Ces objets équivalent à 1/6 Champion avec un sertissage et vous pouvez les utiliser pendant quelques semaines en début de saison. Niveau d'objet confirmé à 1/6 champion." }, -- ⚠️ UNVERIFIED
             { id = "2e0ae86e", text = "Si vous n'avez pas farmé d'honneur pour des objets JcJ, alors AVANT LE RAID, fabriquez 1 à 2 pièces de niveau d'objet 246 avec embellissements sur les emplacements faibles, en utilisant 80 à 160 Crêtes de vétéran. CELLES-CI NE NÉCESSITENT PAS D'ÉTINCELLES. Les objets que vous fabriquez sont les objets de qualité bleue à l'établi d'artisanat dans lesquels vous insérez 80 Crêtes de vétéran pour augmenter leur niveau d'objet. Consultez le Guide pour plus d'informations. Vous pouvez également demander de l'aide sur le Discord si nécessaire." },
@@ -125,7 +127,7 @@ local DATASET = {
         title = "Semaine 2 - 24 mars - Semaine mythique, M+ ouvre, prenez des congés les nerds",
         items = {
             { id = "36d21691", text = "Ne dépensez aucun écusson héroïque ou mythique avant qu'on vous le dise. Consultez le guide pour comprendre pourquoi nous conservons les écussons." },
-            { id = "61144e80", text = "Consultez le Guide pour savoir quoi fabriquer et quand." },
+            { id = "e8cef00e", text = "Consultez le guide pour savoir quoi et quand fabriquer." },
             { id = "4056a14a", text = "Si vous n'avez pas le bonus 4 pièces, faites le RDF pour des pièces de panoplie - obtenir un bonus 4 pièces permettra aux charges de catalyseur de tomber de tout le contenu" },
             { id = "e0ecce24", text = "Terminez la quête d'événement mondial hebdomadaire pour un cache apogée et une étincelle auprès de Dame Liadrin" },
             { id = "9686fde4", text = "Terminez la quête de logement hebdomadaire de Vaeli pour ?crêtes de héros? (sera mis à jour lors de la mise en ligne)" },

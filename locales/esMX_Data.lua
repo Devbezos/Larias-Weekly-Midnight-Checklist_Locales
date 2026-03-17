@@ -42,7 +42,7 @@ local DATASET = {
         title = "Pretemporada semana 1 - 3 de marzo - M0",
         items = {
             { id = "79c35167", text = "Guarda 160 blasones de Veterano para fabricación - ve más abajo para instrucciones (Estos no requieren Chispas)" },
-            { id = "e8cef00e", text = "Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "e8cef00e", text = "Revisa la Guía para saber qué y cuándo fabricar." },
             { id = "c06ee1a3", text = "Si estás en un alt y no ves algunas de estas misiones, ve con Soridormi en la Posada de Ciudad de Lunargenta y elige \"Detuve la Tormenta del Vacío\" para saltar la campaña." }, -- ⚠️ UNVERIFIED
             { id = "755d27e7", text = "Sube el renombre de La Singularidad al rango 7 para obtener un alhaja de campeón 1/6 - proviene de una misión del vendedor de renombre" }, -- ⚠️ UNVERIFIED
             { id = "f213fee8", text = "Sube el renombre de Hara'ti al rango 8 para obtener un cinturón de campeón 1/6 - proviene de una misión del vendedor de renombre" },
@@ -98,20 +98,22 @@ local DATASET = {
         title = "Temporada 1 Semana 1 - 17 de marzo - Semana Heroica, 2da fabricación",
         items = {
             { id = "791379ba", text = "No gastes ningún Emblema Heroico o Mítico hasta que se te indique. Consulta la Guía para entender por qué guardamos emblemas." },
-            { id = "9767aed2", text = "Casi todos pueden probablemente fabricar tu objeto de chispa ahora. Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "fab7aef9", text = "Casi todos pueden fabricar tu objeto de chispa ahora. Revisa la Guía para saber qué y cuándo fabricar." },
             { id = "e66847d8", text = "Haz LFR para piezas de conjunto - obtener un bono de 4 piezas permitirá que caigan cargas de catalizador de todo el contenido" },
-            { id = "e0ecce24", text = "Completa la misión de evento mundial semanal para obtener alijo cumbre y chispa de Lady Liadrin" },
-            { id = "9686fde4", text = "Completa la misión semanal de vivienda de Vaeli para ¿emblemas de héroe? (se actualizará cuando esté disponible)" },
+            { id = "b5539926", text = "Completa la misión semanal del evento mundial para obtener el alijo cumbre y chispa de Dama Liadrin - Haz la Arcantina que toma 3 minutos" }, -- ⚠️ UNVERIFIED
+            { id = "091a44e6", text = "Completa la misión semanal de vivienda de Vaeli - la recompensa son crestas limitadas, no importa lo que elijas." }, -- ⚠️ UNVERIFIED
             { id = "1e1d846c", text = "Nota: las siguientes dos cosas están vinculadas - son para una pequeña mejora - dos engarces adicionales para las primeras dos semanas." },
-            { id = "a5b8839d", text = "(Opcional) Nuevo: Completa partidas JcJ para obtener un objeto de misión que otorga 9x Heráldica del gladiador galáctico. Usarás estos para fabricar objetos abajo. Solo haz esto si tienes o vas a conseguir el honor para los engarces de abajo. Nota: esto es muy min-maxy, es esencialmente para 2 engarces adicionales." }, -- ⚠️ UNVERIFIED
+            { id = "14637ac8", text = "(Opcional) Nuevo: Completa partidas JcJ para obtener un objeto de misión que otorga 9x Heráldica del gladiador galáctico. Usarás estos para fabricar objetos más adelante. Solo haz esto si tienes o vas a farmear el honor para los engarces que están abajo. Nota: esto es muy min-max, es esencialmente para 2 engarces adicionales.\nArena es lo más rápido" }, -- ⚠️ UNVERIFIED
             { id = "a1884373", text = "(Opcional) Nuevo: Compra 2 Engastes del joyero galáctico del vendedor por 5000 de Honor y 3 Heliotropo infundido cada uno. Usarás estos para engarazar los objetos fabricados abajo. Estos objetos no aparecerán en el vendedor hasta esta semana. Esto es muy min-maxy, es esencialmente para 2 engarces adicionales." }, -- ⚠️ UNVERIFIED
             { id = "d8d237fa", text = "(Opcional) Sube rango JcJ a 1600 para carga de catalizador (esta es la misma carga de catalizador compartida con 2,000 de puntuación M+ de la semana siguiente). Si consigues 2 piezas de conjunto de tu banda esta semana, esto te permitiría catalizar 2 objetos y empezar a recibir cargas de Catalizador de tus m+ la próxima semana." },
             { id = "ef789b0b", text = "(Opcional) Completa un Tour Mundial de mazmorras M0. Estas otorgarán nivel de objeto de campeón con bloqueo diario - ¡NO TE AGOTES! M+ abre la próxima semana y reemplazará todo esto." },
             { id = "d78939c6", text = "Tarea Diaria: considera hacer una m0 específica que suelte un gran abalorio para ti cada día. El objeto será nivel de objeto de campeón (incursión normal) y podría ser un buen impulso para la incursión de la próxima semana si aún no logras conseguirlo en Heroico." },
-            { id = "22842538", text = "Completa 2 Presas Pesadilla para obtener equipo de Campeón en cada personaje" }, -- ⚠️ UNVERIFIED
-            { id = "f3eb6555", text = "Si Presa de Pesadilla tiene una misión semanal para un objeto de categoría Héroe, haz eso también." }, -- ⚠️ UNVERIFIED
-            { id = "dc0e2686", text = "Mata al Jefe Mundial para obtener objeto de campeón 2/6 nivel 250" },
+            { id = "05b7e462", text = "Completa 4x Presa difícil para desbloquear Presa de pesadilla." }, -- ⚠️ UNVERIFIED
+            { id = "099df4fa", text = "Completa 3x Presa de pesadilla para obtener equipo de campeón en cada personaje y completar la misión semanal para obtener un mapa" }, -- ⚠️ UNVERIFIED
+            { id = "cc5a28dd", text = "Completa Nullaeus en dificultad ? para obtener 30 crestas de héroe sin límite. Recuerda no gastar estas." }, -- ⚠️ UNVERIFIED
             { id = "b6846065", text = "Haz incursiones abundantes nivel 8 o superior, usa mapa en incursión nivel 8+; mientras haces esto, desbloquea incursiones nivel 11" },
+            { id = "2f9c0f4f", text = "Usa tu objeto de invocación de jefe de la misión semanal Presa de pesadilla en una Profundidad nivel 8 para obtener un mapa y luego úsalo para obtener un objeto categoría de héroe." }, -- ⚠️ UNVERIFIED
+            { id = "5ccc7694", text = "Mata al Jefe mundial para obtener objeto de campeón 3/6 nivel de objeto 253" }, -- ⚠️ UNVERIFIED
             { id = "bf5d2e12", text = "Llena tu cámara en cada espacio para múltiples oportunidades de obtener objetos de nivel héroe la próxima semana." },
             { id = "4820451a", text = "(Opcional) Nuevo: Si conseguiste honor y has obtenido tu Heráldica del gladiador galáctico y Engarces del joyero galáctico (ver arriba), fabrica Brazales y Cinturón a nivel de objeto 246 y añádeles un engarce. Estos objetos pueden llevar adornos - si fabricaste un arma con un adorno, solo pon un adorno en estos. Si no fabricaste un arma, pon 2x adornos en ellos. Estos objetos son el equivalente a 1/6 de categoría Campeón con un engarce y puedes usarlos durante un par de semanas al inicio de la temporada. Nivel de objeto confirmado en 1/6 campeón." }, -- ⚠️ UNVERIFIED
             { id = "2e0ae86e", text = "Si no farmaste honor para objetos JcJ, entonces ANTES DE LA BANDA, fabrica 1x-2x piezas de nivel de objeto 246 con adornos en espacios débiles, usando 80-160 Crestas de Veterano. ESTAS NO REQUIEREN CHISPAS. Los objetos que estás fabricando son los objetos de calidad azul en la mesa de fabricación en los que insertas 80x crestas de Veterano para aumentar su nivel de objeto. Consulta la Guía para más información. También puedes preguntar en el Discord si necesitas ayuda." },
@@ -125,7 +127,7 @@ local DATASET = {
         title = "Semana 2 - 24 de marzo - Semana mítica, abren M+, tómate el día libre giganerd",
         items = {
             { id = "36d21691", text = "No gastes ningún blasón Heroico o Mítico hasta que se te indique. Consulta la guía sobre por qué guardamos blasones." },
-            { id = "61144e80", text = "Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "e8cef00e", text = "Revisa la Guía para saber qué y cuándo fabricar." },
             { id = "4056a14a", text = "Si no tienes 4 set, haz LFR para piezas de banda - obtener una bonificación 4 set permitirá que caigan cargas de catalizador de todo el contenido" },
             { id = "e0ecce24", text = "Completa la misión de evento mundial semanal para obtener alijo cumbre y chispa de Lady Liadrin" },
             { id = "9686fde4", text = "Completa la misión semanal de vivienda de Vaeli para ¿emblemas de héroe? (se actualizará cuando esté disponible)" },

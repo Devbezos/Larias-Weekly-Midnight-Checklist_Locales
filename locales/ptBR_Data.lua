@@ -42,7 +42,7 @@ local DATASET = {
         title = "Pré-temporada Semana 1 - 3 de março - M0",
         items = {
             { id = "79c35167", text = "Guarde 160 insígnias Veterano para criação - veja as instruções mais abaixo (Estas não requerem Centelhas)" },
-            { id = "e8cef00e", text = "Consulte o Guia para saber o que e quando criar." },
+            { id = "e8cef00e", text = "Verifique o Guia para o que e quando fabricar." },
             { id = "c06ee1a3", text = "Se você está em um personagem alternativo e não vê algumas dessas missões, vá até Soridormi na Estalagem de Lua Prateada e escolha \"Eu Detive a Tempestade Etérea\" para pular a campanha." }, -- ⚠️ UNVERIFIED
             { id = "755d27e7", text = "Eleve o renome de A Singularidade para nível 7 para um trinket campeão 1/6 - vem de uma missão do vendedor de renome" },
             { id = "f213fee8", text = "Eleve o renome de Hara'ti para nível 8 para um cinto campeão 1/6 - vem de uma missão do vendedor de renome" },
@@ -98,20 +98,22 @@ local DATASET = {
         title = "Temporada 1 Semana 1 - 17 de Mar - Semana Heroica, 2ª criação",
         items = {
             { id = "791379ba", text = "Não gaste nenhuma Insígnia Heroica ou Mítica até ser instruído a fazê-lo. Consulte o Guia para entender por que guardamos insígnias." },
-            { id = "9767aed2", text = "Quase todos provavelmente podem criar seu item de centelha agora. Verifique o Guia para o que e quando criar." },
+            { id = "fab7aef9", text = "Quase todo mundo provavelmente pode fabricar seu item de centelha agora. Verifique o Guia para o que e quando fabricar." },
             { id = "e66847d8", text = "Faça LFR para peças de conjunto - obter o bônus de 4 peças permitirá que cargas do catalisador caiam de todo o conteúdo" },
-            { id = "e0ecce24", text = "Complete a missão de evento mundial semanal para baú pináculo e faísca da Lady Liadrin" },
-            { id = "9686fde4", text = "Complete a missão semanal de moradia de Vaeli para ?insígnias heroicas? (será atualizado quando for ao ar)" }, -- ⚠️ UNVERIFIED
+            { id = "b5539926", text = "Complete a missão semanal de evento mundial para baú pináculo e centelha da Lady Liadrin - Fazer a Arcantina leva 3 minutos" }, -- ⚠️ UNVERIFIED
+            { id = "091a44e6", text = "Complete a missão semanal de habitação da Vaeli - a recompensa é brasões limitados, não importa o que você escolher." },
             { id = "1e1d846c", text = "Nota: as próximas duas coisas estão relacionadas - são para uma pequena melhoria - dois engastes adicionais nas primeiras duas semanas." },
-            { id = "a5b8839d", text = "(Opcional) Novo: Complete partidas JxJ para obter um item de missão que recompensa 9x Heráldica do Gladiador Galáctico. Você usará estes para fabricar os itens abaixo. Só faça isso se você tem ou vai farmar a honra para os engastes abaixo. Nota: isto é muito min-max, é essencialmente para 2 engastes adicionais." }, -- ⚠️ UNVERIFIED
+            { id = "14637ac8", text = "(Opcional) Novo: Complete partidas JxJ para obter um item de missão que recompensa 9x Heráldica do Gladiador Galáctico. Você usará estes para fabricar itens abaixo. Apenas faça isso se você tem ou vai farmar a honra para os engastes abaixo. Nota: isso é muito min-max, é essencialmente para 2 engastes adicionais.\nArena é o mais rápido" }, -- ⚠️ UNVERIFIED
             { id = "a1884373", text = "(Opcional) Novo: Compre 2 Cravações do Joalheiro Galáctico do vendedor por 5000 de Honra e 3 Heliotrópios Imbuídos cada. Você usará estes para engastar os itens fabricados abaixo. Estes itens não aparecerão no vendedor até esta semana. Isto é muito min-max, é essencialmente para 2 engastes adicionais." }, -- ⚠️ UNVERIFIED
             { id = "d8d237fa", text = "(Opcional) Aumente a classificação PVP para 1600 para carga do catalisador (esta é a mesma carga do catalisador compartilhada com 2.000 de classificação M+ da próxima semana). Se você conseguir 2 peças de conjunto do seu raide esta semana, isso permitirá catalizar 2 itens e começar a receber quedas de carga do Catalisador do seu m+ na próxima semana." },
             { id = "ef789b0b", text = "(Opcional) Complete um Tour Mundial de masmorras M0. Estas darão recompensas de nível de item campeão com bloqueio diário - NÃO SE ESGOTE! M+ abre na próxima semana e substituirá tudo isso." },
             { id = "d78939c6", text = "Tarefa Diária: considere fazer uma m0 específica que drope um ótimo amuleto para você todos os dias. O item será nível de item campeão (raide normal) e pode ser um bom impulso para a raide da próxima semana se você ainda não conseguir farmá-lo no Heroico." },
-            { id = "22842538", text = "Complete 2x Presa de Pesadelo para equipamento Campeão em cada personagem" }, -- ⚠️ UNVERIFIED
-            { id = "f3eb6555", text = "Se Presa do Pesadelo tiver uma missão semanal para um item de trilha Herói, faça isso também." }, -- ⚠️ UNVERIFIED
-            { id = "dc0e2686", text = "Mate o Chefe Mundial para item campeão 2/6 de nível 250" },
+            { id = "05b7e462", text = "Complete 4x Presa Difícil para desbloquear Presa Pesadelo." }, -- ⚠️ UNVERIFIED
+            { id = "099df4fa", text = "Complete 3x Presa Pesadelo para equipamento Campeão em cada personagem e para completar a missão semanal por um mapa" }, -- ⚠️ UNVERIFIED
+            { id = "cc5a28dd", text = "Complete Nullaeus na dificuldade ? para 30 brasões de Herói sem limite. Lembre-se de não gastar estes." }, -- ⚠️ UNVERIFIED
             { id = "b6846065", text = "Faça delves abundantes nível 8 ou superior, use mapa em delve nível 8+ - enquanto faz isso, desbloqueie delves nível 11" },
+            { id = "2f9c0f4f", text = "Use seu item de invocação de chefe da missão semanal Presa Pesadelo em uma Delve nível 8 para obter um mapa e então use-o para um item de trilha Herói." }, -- ⚠️ UNVERIFIED
+            { id = "5ccc7694", text = "Mate o Chefe Mundial para item 3/6 campeão nível de item 253" },
             { id = "bf5d2e12", text = "Preencha seu cofre em todos os espaços para múltiplas chances de itens de nível heroico na próxima semana." },
             { id = "4820451a", text = "(Opcional) Novo: Se você farmou honra e obteve sua Heráldica do Gladiador Galáctico e Cravações do Joalheiro Galáctico (veja acima), fabrique Braçadeiras e Cinturão em nível de item 246 e adicione um engaste a eles. Estes itens podem receber adornos - se você fabricou uma arma com um adorno, coloque apenas um adorno nestes. Se você não fabricou uma arma, coloque 2x adornos neles. Estes itens são equivalentes a 1/6 de trilha Campeão com um engaste e você pode usar estes por algumas semanas na temporada. Nível de item confirmado como 1/6 campeão." }, -- ⚠️ UNVERIFIED
             { id = "2e0ae86e", text = "Se você não farmou honra para itens PvP, então ANTES DA RAIDE, crie 1x-2x peças de nível de item 246 com adornos em espaços fracos, usando 80-160 Brasões Veteranos. ESTES NÃO USAM CENTELHAS. Os itens que você está criando são os itens de qualidade azul na bancada de criação nos quais você insere 80x Brasões Veteranos para aumentar seu nível de item. Verifique o Guia para mais informações. Também pode perguntar no Discord se precisar de ajuda." },
@@ -125,7 +127,7 @@ local DATASET = {
         title = "Semana 2 - 24 de março - Semana mítica, M+ abre, tirem férias nerds",
         items = {
             { id = "36d21691", text = "Não gaste nenhuma Insígnia Heroica ou Mítica até que seja instruído a fazê-lo. Confira o guia para entender por que guardamos insígnias." },
-            { id = "61144e80", text = "Consulte o Guia para saber o que e quando criar." },
+            { id = "e8cef00e", text = "Verifique o Guia para o que e quando fabricar." },
             { id = "4056a14a", text = "Se você não tem conjunto de 4 peças, faça RFR para peças de conjunto - obter um bônus de 4 peças permitirá que cargas de catalisador sejam obtidas de todo conteúdo" },
             { id = "e0ecce24", text = "Complete a missão de evento mundial semanal para baú pináculo e faísca da Lady Liadrin" },
             { id = "9686fde4", text = "Complete a missão semanal de moradia de Vaeli para ?insígnias heroicas? (será atualizado quando for ao ar)" }, -- ⚠️ UNVERIFIED

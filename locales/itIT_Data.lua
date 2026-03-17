@@ -98,20 +98,22 @@ local DATASET = {
         title = "Stagione 1 Settimana 1 - 17 Mar - Settimana Eroica, 2° creazione",
         items = {
             { id = "791379ba", text = "Non spendere stemmi Eroici o Mitici finché non ti viene detto di farlo. Controlla la Guida per sapere perché conserviamo gli stemmi." },
-            { id = "9767aed2", text = "Quasi tutti possono probabilmente creare il tuo oggetto con scintilla ora. Controlla la Guida per cosa e quando creare." },
+            { id = "fab7aef9", text = "Quasi tutti ora possono probabilmente creare il tuo oggetto con scintilla. Controlla la Guida per cosa e quando creare." },
             { id = "e66847d8", text = "Fai LFR per pezzi del set - ottenere un bonus set da 4 pezzi permetterà alle cariche del catalizzatore di cadere da tutti i contenuti" },
-            { id = "e0ecce24", text = "Completa la missione settimanale dell'evento mondiale per cache culminante e scintilla da Dama Liadrin" },
-            { id = "9686fde4", text = "Completa la missione settimanale dell'abitazione da Vaeli per ?stemmi eroe? (verrà aggiornato quando sarà disponibile)" },
+            { id = "b5539926", text = "Completa la missione settimanale dell'evento mondiale per la cassa apice e la scintilla da Lady Liadrin - Fai l'Arcantina richiede 3 minuti" }, -- ⚠️ UNVERIFIED
+            { id = "091a44e6", text = "Completa la missione settimanale dell'abitazione da Vaeli - la ricompensa è stemmi limitati, non importa cosa scegli." }, -- ⚠️ UNVERIFIED
             { id = "1e1d846c", text = "Nota: le prossime due cose sono collegate - sono per un piccolo miglioramento - due incastonature aggiuntive nelle prime due settimane." },
-            { id = "a5b8839d", text = "(Facoltativo) Nuovo: Completa partite PvP per ottenere un oggetto missione che ricompensa 9x Araldica del Gladiatore Galattico. Le userai per creare gli oggetti qui sotto. Fallo solo se hai o stai per ottenere l'onore per le incastonature qui sotto. Nota: questo è molto ottimizzato al massimo, è per 2 incastonature aggiuntive essenzialmente." },
+            { id = "14637ac8", text = "(Opzionale) Nuovo: Completa partite PvP per ottenere un oggetto missione che ricompensa 9x Araldica del Gladiatore Galattico. Le userai per creare oggetti sotto. Fallo solo se hai o stai per farmare l'onore per le gemme sotto. Nota: questo è molto min-max, è essenzialmente per 2 gemme aggiuntive.\nL'Arena è la più veloce" }, -- ⚠️ UNVERIFIED
             { id = "a1884373", text = "(Facoltativo) Nuovo: Acquista 2 Montature del Gioielliere Galattico dal venditore per 5000 Onore e 3 Eliotropio Infuso ciascuna. Le userai per incastonare gli oggetti creati qui sotto. Questi oggetti non appariranno dal venditore fino a questa settimana. Questo è molto ottimizzato al massimo, è per 2 incastonature aggiuntive essenzialmente." },
             { id = "d8d237fa", text = "(Opzionale) Aumenta il grado PVP a 1600 per carica del catalizzatore (questa è la stessa carica del catalizzatore condivisa con il punteggio M+ di 2.000 della prossima settimana). Se ottieni 2 pezzi del set dall'incursione questa settimana, questo ti permetterebbe di catalizzare 2 oggetti e iniziare a ricevere cadute di carica del Catalizzatore dalle tue m+ la prossima settimana." },
             { id = "ef789b0b", text = "(Facoltativo) Completa un Tour Mondiale di segrete M0. Queste ricompenseranno livello oggetto campione con blocco giornaliero - NON ESAURIRTI! M+ si apre la prossima settimana e sostituirà tutto questo." },
             { id = "d78939c6", text = "Compito Giornaliero: considera di fare una specifica m0 che rilascia un ottimo ninnolo per te ogni giorno. L'oggetto sarà livello oggetto campione (incursione normale) e potrebbe essere un bel potenziamento per l'incursione della prossima settimana se non riesci ancora a farmarlo su Eroico." },
-            { id = "22842538", text = "Completa 2 Prede Incubo per equipaggiamento Campione su ogni personaggio" }, -- ⚠️ UNVERIFIED
-            { id = "f3eb6555", text = "Se Preda dell'Incubo ha una missione settimanale per un oggetto di livello Eroe, falla anche quella." }, -- ⚠️ UNVERIFIED
-            { id = "dc0e2686", text = "Uccidi il Boss Mondiale per oggetto 2/6 250 livello oggetto champ" },
+            { id = "05b7e462", text = "Completa 4x Preda Difficile per sbloccare Preda da Incubo." }, -- ⚠️ UNVERIFIED
+            { id = "099df4fa", text = "Completa 3x Preda da Incubo per equipaggiamento Campione su ogni personaggio e per completare la missione settimanale per una mappa" }, -- ⚠️ UNVERIFIED
+            { id = "cc5a28dd", text = "Completa Nullaeus a difficoltà ? per 30 stemmi Eroe illimitati. Ricorda di non spenderli." }, -- ⚠️ UNVERIFIED
             { id = "b6846065", text = "Fai ricognizioni abbondanti livello 8 o superiore, usa mappa su ricognizione livello 8+  - mentre fai questo, sblocca le ricognizioni livello 11" },
+            { id = "2f9c0f4f", text = "Usa il tuo oggetto d'evocazione boss dalla missione settimanale Preda da Incubo in una Fossa di livello 8 per ottenere una mappa e poi usala per un oggetto livello Eroe." }, -- ⚠️ UNVERIFIED
+            { id = "5ccc7694", text = "Uccidi il Boss Mondiale per oggetto camp 3/6 253 livl oggetto" }, -- ⚠️ UNVERIFIED
             { id = "bf5d2e12", text = "Riempi il tuo forziere in ogni slot per avere più possibilità di ottenere oggetti di livello eroe la prossima settimana." },
             { id = "4820451a", text = "(Facoltativo) Nuovo: Se hai ottenuto onore e hai ottenuto la tua Araldica del Gladiatore Galattico e Incastonature del Gioielliere Galattico (vedi sopra), crea Bracciali e Cintura a 246 livello oggetto e aggiungi un'incastonatura a ciascuno. Questi oggetti possono avere abbellimenti - se hai creato un'arma con un abbellimento, metti solo un abbellimento su questi. Se non hai creato un'arma, metti 2x abbellimenti su di essi. Questi oggetti equivalgono a 1/6 Campione con un'incastonatura e puoi usarli per un paio di settimane nella stagione. Livello oggetto confermato essere 1/6 campione." },
             { id = "2e0ae86e", text = "Se non hai accumulato onore per oggetti JcJ, allora PRIMA DEL RAID, crea 1x-2x pezzi livello oggetto 246 con abbellimenti negli slot deboli, usando 80-160 Blasoni Veterani. QUESTI NON RICHIEDONO SCINTILLE. Gli oggetti che stai creando sono gli oggetti di qualità blu al banco da lavoro in cui inserisci 80x Blasoni Veterani per aumentare il loro livello oggetto. Controlla la Guida per maggiori informazioni. Puoi anche chiedere aiuto nel Discord se ne hai bisogno." },
@@ -125,7 +127,7 @@ local DATASET = {
         title = "Settimana 2 - 24 marzo - Settimana mitica, M+ apre, prendetevi ferie nerd",
         items = {
             { id = "36d21691", text = "Non spendere alcuno Stemma Eroico o Mitico finché non ti viene detto di farlo. Controlla la guida per capire perché conserviamo gli stemmi." },
-            { id = "61144e80", text = "Controlla la Guida per cosa e quando creare." },
+            { id = "e8cef00e", text = "Controlla la Guida per cosa e quando creare." },
             { id = "4056a14a", text = "Se non hai il set da 4, fai LFR per pezzi tier - ottenere un bonus set da 4 pezzi permetterà alle cariche del catalizzatore di droppare da tutti i contenuti" },
             { id = "e0ecce24", text = "Completa la missione settimanale dell'evento mondiale per cache culminante e scintilla da Dama Liadrin" },
             { id = "9686fde4", text = "Completa la missione settimanale dell'abitazione da Vaeli per ?stemmi eroe? (verrà aggiornato quando sarà disponibile)" },

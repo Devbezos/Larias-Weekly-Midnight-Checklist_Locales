@@ -42,7 +42,7 @@ local DATASET = {
         title = "Vorsaison Woche 1 - 3. März - M0s",
         items = {
             { id = "79c35167", text = "Spare 160 Veteranenwappen für die Herstellung - siehe weiter unten für Anweisungen (Diese benötigen keine Funken)" },
-            { id = "e8cef00e", text = "Prüfe den Leitfaden, was und wann hergestellt werden soll." },
+            { id = "e8cef00e", text = "Prüfe den Leitfaden für was und wann du herstellen sollst." },
             { id = "c06ee1a3", text = "Wenn du auf einem Twink bist und einige dieser Quests nicht siehst, gehe zu Soridormi im Gasthaus von Silbermond und wähle \"Ich habe den Leerensturm gestoppt\", um die Kampagne zu überspringen." },
             { id = "755d27e7", text = "Erhöhe den Ruhm der Singularität auf Rang 7 für ein 1/6-Champion-Schmuckstück - kommt von einer Quest vom Ruhmverkäufer" }, -- ⚠️ UNVERIFIED
             { id = "f213fee8", text = "Erhöhe den Ruhm der Hara'ti auf Rang 8 für einen 1/6-Champion-Gürtel - kommt von einer Quest vom Ruhmverkäufer" }, -- ⚠️ UNVERIFIED
@@ -98,20 +98,22 @@ local DATASET = {
         title = "Saison 1 Woche 1 - 17. März - Heroische Woche, 2. Herstellung",
         items = {
             { id = "791379ba", text = "Gib keine heroischen oder mythischen Wappen aus, bis es dir gesagt wird. Prüfe den Leitfaden, warum wir Wappen zurückhalten." },
-            { id = "9767aed2", text = "Fast jeder kann wahrscheinlich jetzt deinen Funkengegenstand herstellen. Prüfe den Leitfaden für was und wann hergestellt werden soll." },
+            { id = "fab7aef9", text = "Fast jeder kann jetzt wahrscheinlich deinen Funken-Gegenstand herstellen. Prüfe den Leitfaden für was und wann du herstellen sollst." },
             { id = "e66847d8", text = "Mache LFR für Setteile - das Erhalten eines 4er-Setbonus ermöglicht es, dass Katalysatorladungen aus allen Inhalten droppen" },
-            { id = "e0ecce24", text = "Schließe die wöchentliche Weltereignisquest für Gipfelcache und Funken von Lady Liadrin ab" },
-            { id = "9686fde4", text = "Schließe die wöchentliche Behausungsquest von Vaeli für ?Heldenwappen? ab (wird aktualisiert, wenn es live geht)" },
+            { id = "b5539926", text = "Schließe die wöchentliche Weltereignis-Quest für Gipfel-Truhe und Funken von Lady Liadrin ab - Mach die Arcantina dauert 3 Minuten" }, -- ⚠️ UNVERIFIED
+            { id = "091a44e6", text = "Schließe die wöchentliche Wohnungs-Quest von Vaeli ab - Belohnung ist begrenzte Wappen, egal was du wählst." }, -- ⚠️ UNVERIFIED
             { id = "1e1d846c", text = "Hinweis: die nächsten beiden Dinge sind miteinander verbunden - sie sind für ein kleines Upgrade - zwei zusätzliche Sockel für die ersten zwei Wochen." },
-            { id = "a5b8839d", text = "(Optional) Neu: Schließe PvP-Matches ab, um einen Questgegenstand zu erhalten, der 9x Heraldik des Galaktischen Gladiators belohnt. Du wirst diese verwenden, um die Gegenstände unten herzustellen. Mache dies nur, wenn du die Ehre für die Sockel unten hast oder farmen wirst. Hinweis: dies ist sehr min-maxy, es ist im Wesentlichen für 2 zusätzliche Sockel." }, -- ⚠️ UNVERIFIED
+            { id = "14637ac8", text = "(Optional) Neu: Schließe PvP-Kämpfe ab, um einen Quest-Gegenstand zu erhalten, der 9x Heroldik des galaktischen Gladiators gewährt. Du wirst diese nutzen, um Gegenstände unten herzustellen. Mach das nur, wenn du die Ehre für die Sockel unten hast oder farmen wirst. Hinweis: das ist sehr min-maxy, es geht im Wesentlichen um 2 zusätzliche Sockel.\nArena ist am schnellsten" }, -- ⚠️ UNVERIFIED
             { id = "a1884373", text = "(Optional) Neu: Kaufe 2 Fassung des Galaktischen Juweliers vom Händler für je 5000 Ehre und 3 Infundierter Heliotrop. Du wirst diese verwenden, um die hergestellten Gegenstände unten zu sockeln. Diese Gegenstände werden erst diese Woche beim Händler erscheinen. Dies ist sehr min-maxy, es ist im Wesentlichen für 2 zusätzliche Sockel." }, -- ⚠️ UNVERIFIED
             { id = "d8d237fa", text = "(Optional) Erhöhe die PVP-Wertung auf 1600 für eine Katalysatorladung (dies ist dieselbe Katalysatorladung, die mit 2.000 M+-Wertung aus der nächsten Woche geteilt wird). Wenn du diese Woche 2 Setteile aus deinem Schlachtzug bekommst, würde dir dies erlauben, 2 Gegenstände zu katalysieren und nächste Woche Katalysatorladungen aus deinen M+ zu erhalten." },
             { id = "ef789b0b", text = "(Optional) Absolviere eine Welttournee durch M0-Dungeons. Diese belohnen Championgegenstandsstufe mit täglicher Sperre - BRENNE NICHT AUS! M+ öffnet nächste Woche und wird all das ersetzen." },
             { id = "d78939c6", text = "Tägliche Aufgabe: Erwäge, jeden Tag ein bestimmtes M0 zu laufen, das ein großartiges Schmuckstück für dich droppt. Der Gegenstand wird Championgegenstandsstufe (normaler Schlachtzug) haben und könnte ein schöner Boost sein, wenn du nächste Woche in den Schlachtzug gehst, falls du es noch nicht auf Heroisch farmen konntest." },
-            { id = "22842538", text = "Schließe 2x Albtraumbeute für Championausrüstung auf jedem Charakter ab" }, -- ⚠️ UNVERIFIED
-            { id = "f3eb6555", text = "Wenn Albtraumbeute eine wöchentliche Quest für einen Heldengegenstand hat, mache diese ebenfalls." }, -- ⚠️ UNVERIFIED
-            { id = "dc0e2686", text = "Töte den Weltboss für Champion 2/6 Gegenstand mit Gegenstandsstufe 250" },
+            { id = "05b7e462", text = "Schließe 4x Harte Beute ab, um Albtraum-Beute freizuschalten." }, -- ⚠️ UNVERIFIED
+            { id = "099df4fa", text = "Schließe 3x Albtraum-Beute für Champion-Ausrüstung auf jedem Charakter ab und um die wöchentliche Quest für eine Karte abzuschließen" }, -- ⚠️ UNVERIFIED
+            { id = "cc5a28dd", text = "Schließe Nullaeus auf ?-Schwierigkeit für 30 unbegrenzte Helden-Wappen ab. Denk daran, gib diese nicht aus." }, -- ⚠️ UNVERIFIED
             { id = "b6846065", text = "Mache T8 oder höhere ertragreiche Tiefen, benutze Karte auf T8+-Tiefe - während du das machst, schalte T11-Tiefen frei" },
+            { id = "2f9c0f4f", text = "Nutze deinen Boss-Beschwörungsgegenstand aus der wöchentlichen Albtraum-Beute-Quest in einem Tier-8-Delve, um eine Karte zu erhalten und nutze sie dann für einen Gegenstand der Helden-Stufe." }, -- ⚠️ UNVERIFIED
+            { id = "5ccc7694", text = "Töte Weltboss für Champion 3/6 253 Gegenstandsstufe Gegenstand" },
             { id = "bf5d2e12", text = "Fülle deine Truhe in jedem Slot für mehrere Chancen auf Heldenstufen-Gegenstände nächste Woche." },
             { id = "4820451a", text = "(Optional) Neu: Falls du Ehre gefarmt hast und deine Heraldik des Galaktischen Gladiators und Sockel des Galaktischen Juweliers erhalten hast (siehe oben), stelle Armschienen und Gürtel mit 246 Gegenstandsstufe her und füge einen Sockel hinzu. Diese Gegenstände können Verschönerungen aufnehmen - falls du eine Waffe mit einer Verschönerung hergestellt hast, verwende nur eine Verschönerung auf diesen. Falls du keine Waffe hergestellt hast, verwende 2x Verschönerungen auf ihnen. Diese Gegenstände entsprechen 1/6 Championsspur mit einem Sockel und du kannst diese für einige Wochen in der Saison verwenden. Gegenstandsstufe bestätigt als 1/6 Champion." }, -- ⚠️ UNVERIFIED
             { id = "2e0ae86e", text = "Wenn du keine Ehre für PvP-Gegenstände gefarmt hast, stelle VOR DEM SCHLACHTZUG 1x-2x 246 Gegenstandsstufen-Teile mit Verzierungen für schwache Slots her, indem du 80-160 Veteranenabzeichen verwendest. DIESE BENÖTIGEN KEINE FUNKEN. Die Gegenstände, die du herstellst, sind die Gegenstände mit blauer Qualität an der Herstellungsbank, in die du 80x Veteranenabzeichen einfügst, um ihre Gegenstandsstufe zu erhöhen. Prüfe den Leitfaden für weitere Informationen. Du kannst auch im Discord um Hilfe bitten, falls du sie brauchst." },
@@ -125,7 +127,7 @@ local DATASET = {
         title = "Woche 2 - 24. März - Mythisch-Woche, M+ öffnet, nehmt Urlaub Nerds",
         items = {
             { id = "36d21691", text = "Gib keine Heroischen oder Mythischen Abzeichen aus, bis du dazu aufgefordert wirst. Im Leitfaden erfährst du, warum wir Abzeichen aufheben." },
-            { id = "61144e80", text = "Prüfe den Leitfaden, was und wann hergestellt werden soll." },
+            { id = "e8cef00e", text = "Prüfe den Leitfaden für was und wann du herstellen sollst." },
             { id = "4056a14a", text = "Falls du kein 4er-Set hast, mache LFR für Set-Teile - das Erhalten eines 4er-Set-Bonus ermöglicht es, dass Katalysator-Ladungen von allen Inhalten fallen" },
             { id = "e0ecce24", text = "Schließe die wöchentliche Weltereignisquest für Gipfelcache und Funken von Lady Liadrin ab" },
             { id = "9686fde4", text = "Schließe die wöchentliche Behausungsquest von Vaeli für ?Heldenwappen? ab (wird aktualisiert, wenn es live geht)" },

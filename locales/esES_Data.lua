@@ -98,20 +98,22 @@ local DATASET = {
         title = "Temporada 1 Semana 1 - 17 Mar - Semana Heroica, 2ª fabricación",
         items = {
             { id = "791379ba", text = "No gastes ningún Emblema Heroico o Mítico hasta que se te indique. Consulta la Guía sobre por qué guardamos emblemas." },
-            { id = "9767aed2", text = "Casi todo el mundo puede fabricar tu objeto de chispa ahora. Consulta la Guía para saber qué y cuándo fabricar." },
+            { id = "fab7aef9", text = "Casi todo el mundo puede fabricar tu objeto de chispa ahora. Consulta la Guía sobre qué y cuándo fabricar." },
             { id = "e66847d8", text = "Haz BFB para piezas de conjunto - obtener un bonus de 4 piezas permitirá que caigan cargas de catalizador de todo el contenido" },
-            { id = "e0ecce24", text = "Completa la misión semanal del evento mundial para alijo cumbre y chispa de Lady Liadrin" },
-            { id = "9686fde4", text = "Completa la misión semanal de vivienda de Vaeli para ¿emblemas de héroe? (se actualizará cuando esté disponible)" },
+            { id = "b5539926", text = "Completa la misión semanal de evento mundial para el alijo cumbre y chispa de Lady Liadrin - Haz la Arcantina, tarda 3 minutos" }, -- ⚠️ UNVERIFIED
+            { id = "091a44e6", text = "Completa la misión semanal de vivienda de Vaeli - la recompensa son emblemas con límite, no importa lo que elijas." }, -- ⚠️ UNVERIFIED
             { id = "1e1d846c", text = "Nota: las dos siguientes cosas están relacionadas - son para una pequeña mejora - dos engarces adicionales de cara a las dos primeras semanas." },
-            { id = "a5b8839d", text = "(Opcional) Nuevo: Completa partidas JcJ para obtener un objeto de misión que otorga 9x heráldica del gladiador galáctico. Los usarás para fabricar objetos más abajo. Solo haz esto si tienes o vas a conseguir el honor para los engarces de abajo. Nota: esto es muy min-max, es básicamente para 2 engarces adicionales." },
+            { id = "14637ac8", text = "(Opcional) Nuevo: Completa partidas JcJ para obtener un objeto de misión que recompensa 9x Heráldica del gladiador galáctico. Usarás estos para fabricar objetos más abajo. Solo haz esto si tienes o vas a farmear el honor para los engarces de abajo. Nota: esto es muy min-maxy, es esencialmente para 2 engarces adicionales.\nArena es lo más rápido" }, -- ⚠️ UNVERIFIED
             { id = "a1884373", text = "(Opcional) Nuevo: Compra 2 engastes de joyero galáctico del vendedor por 5000 de honor y 3 heliótropo infundido cada uno. Los usarás para engarazar los objetos fabricados más abajo. Estos objetos no aparecerán en el vendedor hasta esta semana. Esto es muy min-max, es básicamente para 2 engarces adicionales." },
             { id = "d8d237fa", text = "(Opcional) Sube la clasificación JcJ a 1600 para carga de catalizador (esta es la misma carga de catalizador compartida con 2.000 de puntuación M+ de la próxima semana). Si consigues 2 piezas de conjunto en tu asalto esta semana, esto te permitiría catalizar 2 objetos y empezar a recibir cargas de Catalizador de tus m+ la próxima semana." },
             { id = "ef789b0b", text = "(Opcional) Completa un Tour Mundial de mazmorras M0. Estas recompensarán nvl de objeto de campeón con reinicio diario - ¡NO TE AGOTES! M+ se abre la próxima semana y reemplazará todo esto." },
             { id = "d78939c6", text = "Tarea Diaria: considera hacer una m0 específica que suelte un gran abalorio para ti cada día. El objeto será de nvl de objeto de campeón (incursión normal) y podría ser una buena mejora para la incursión de la próxima semana si aún no consigues conseguirlo en Heroica." },
-            { id = "22842538", text = "Completa 2 Presa de Pesadilla para equipo de Campeón en cada personaje" },
-            { id = "f3eb6555", text = "Si Presa de Pesadilla tiene una misión semanal para un objeto de banda Héroe, haz eso también." }, -- ⚠️ UNVERIFIED
-            { id = "dc0e2686", text = "Mata al Jefe del Mundo para objeto 2/6 de campeón de nivel 250" },
+            { id = "05b7e462", text = "Completa 4x Presa difícil para desbloquear Presa pesadilla." }, -- ⚠️ UNVERIFIED
+            { id = "099df4fa", text = "Completa 3x Presa pesadilla para equipo de Campeón en cada personaje y para completar la misión semanal de un mapa" }, -- ⚠️ UNVERIFIED
+            { id = "cc5a28dd", text = "Completa Nullaeus en dificultad ? para 30 emblemas de Héroe sin límite. Recuerda no gastar estos." }, -- ⚠️ UNVERIFIED
             { id = "b6846065", text = "Haz profundidades abundantes de nivel 8 o superior, usa mapa en profundidad nivel 8+ - mientras haces esto, desbloquea profundidades nivel 11" },
+            { id = "2f9c0f4f", text = "Usa tu objeto de invocación de jefe de la misión semanal de Presa pesadilla en una Profundidad de nivel 8 para conseguir un mapa y luego úsalo para un objeto de categoría Héroe." }, -- ⚠️ UNVERIFIED
+            { id = "5ccc7694", text = "Mata al Jefe mundial para objeto 3/6 campeón de nivel de objeto 253" },
             { id = "bf5d2e12", text = "Llena tu cámara en cada ranura para múltiples oportunidades de obtener objetos de nivel héroe la próxima semana." },
             { id = "4820451a", text = "(Opcional) Nuevo: Si conseguiste honor y has obtenido tu heráldica del gladiador galáctico y engastes de joyero galáctico (ver arriba), fabrica brazales y cinturón a nivel de objeto 246 y añádeles un engarce. Estos objetos pueden llevar ornamentaciones - si fabricaste un arma con una ornamentación, pon solo una ornamentación en estos. Si no fabricaste un arma, pon 2x ornamentaciones en ellos. Estos objetos son el equivalente a 1/6 de vía Campeón con un engarce y puedes usarlos durante un par de semanas al inicio de la temporada. Nivel de objeto confirmado como 1/6 de campeón." },
             { id = "2e0ae86e", text = "Si no has conseguido honor para objetos JcJ, entonces ANTES DE LA BANDA, fabrica 1x-2x piezas de nivel de objeto 246 con adornos en ranuras débiles, usando 80-160 Escudos de Veterano. ESTOS NO REQUIEREN CHISPAS. Los objetos que estás fabricando son los de calidad azul en la mesa de fabricación en los que insertas 80x Escudos de Veterano para aumentar su nivel de objeto. Consulta la Guía para más información. También puedes pedir ayuda en el Discord si la necesitas." },
@@ -125,7 +127,7 @@ local DATASET = {
         title = "Semana 2 - 24 de marzo - Semana mítica, M+ abre, pedid vacaciones frikis",
         items = {
             { id = "36d21691", text = "No gastes ningún emblema Heroico o Mítico hasta que se te indique. Consulta la guía para saber por qué guardamos los emblemas." },
-            { id = "61144e80", text = "Consulta la Guía sobre qué y cuándo fabricar." },
+            { id = "e8cef00e", text = "Consulta la Guía sobre qué y cuándo fabricar." },
             { id = "4056a14a", text = "Si no tienes conjunto de 4 piezas, haz BBR para piezas de conjunto - obtener un bonus de conjunto de 4 piezas permitirá que caigan cargas de catalizador de todo el contenido" },
             { id = "e0ecce24", text = "Completa la misión semanal del evento mundial para alijo cumbre y chispa de Lady Liadrin" },
             { id = "9686fde4", text = "Completa la misión semanal de vivienda de Vaeli para ¿emblemas de héroe? (se actualizará cuando esté disponible)" },
