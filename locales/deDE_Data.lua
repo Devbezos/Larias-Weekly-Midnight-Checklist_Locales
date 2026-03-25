@@ -56,6 +56,7 @@ local DATASET = {
             { id = "4c264b7f", text = "Schließe die wöchentliche Behausungs-Quest von Vaeli für schnelle Heldenwappen ab" }, -- ⚠️ UNVERIFIED
             { id = "e8673800", text = "Keine wiederholbare Belohnung, kein Grund ?? Nulleaus nach der ersten Vervollständigung zu machen" }, -- ⚠️ UNVERIFIED
             { id = "547b880e", text = "Schließe die wöchentliche Quest 3x Albtraumbeute ab, um einen Gegenstand zu erhalten, der einen Tiefenboss beschwört, um eine Karte und 20 nicht gedeckelte Heldenwappen zu erhalten." },
+            { id = "8d655cd7", text = "Die wöchentliche Tiefen-Rufquest, 5 Tiefen abzuschließen, belohnt ein zufälliges Schlachtzugbeutestück auf Champion-Gegenstandsstufe. DIES KANN MARSCHAUSRÜSTUNG BEINHALTEN, einschließlich Strahlender/Umbraler Federkiel. Erledige diese Quest für eine Chance auf deine BiS-Schmuckstücke auf normaler Gegenstandsstufe." }, -- ⚠️ UNVERIFIED
             { id = "73ad86e4", text = "Mache mindestens eine ertragreiche Tiefe der Stufe 11, um die Quest Rissiger Schlüsselstein für 20 nicht gedeckelte Helden- und Mythische Wappen zu erhalten. Verwende dabei deinen Boss-Gegenstand aus der Quest 3x Albtraumbeute, um eine Karte zu erhalten und verwende sie in dieser Tiefe" },
             { id = "e2da3aa8", text = "Fertige deine Funkenwaffe zu Mythisch um, sobald du 80 mythische Wappen hast" },
             { id = "74924a7b", text = "+10er farmen für 266-Ausrüstung in jedem Slot" },

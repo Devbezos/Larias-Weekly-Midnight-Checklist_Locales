@@ -56,6 +56,7 @@ local DATASET = {
             { id = "4c264b7f", text = "Completa la missione abitativa settimanale da Vaeli per creste dell'eroe veloci" }, -- ⚠️ UNVERIFIED
             { id = "e8673800", text = "Nessuna ricompensa ripetibile reale, nessun motivo per fare ?? Nulleaus dopo il primo completamento" }, -- ⚠️ UNVERIFIED
             { id = "547b880e", text = "Completa la missione settimanale 3 prede dell'incubo per ottenere un oggetto che evoca un boss della spedizione per ottenere una mappa e 20 stemmi Eroe illimitati." },
+            { id = "8d655cd7", text = "La missione settimanale della chiamata dell'esploratore per completare 5 spedizioni ricompensa un pezzo casuale di bottino da incursione al livello oggetto campione. QUESTO PUÒ INCLUDERE EQUIPAGGIAMENTO DI MARZO, inclusi Pennacchio Radioso/Umbratile. Completa questa missione per una possibilità di ottenere i tuoi ninnoli bis a livello oggetto normale." }, -- ⚠️ UNVERIFIED
             { id = "73ad86e4", text = "Completa almeno una spedizione generosa t11 per ottenere la Missione Chiave di Volta Incrinata per 20 stemmi Eroe e Mito illimitati. Mentre la fai, usa il tuo oggetto boss dalla missione 3 prede dell'incubo per ottenere una mappa e usala in questa spedizione" },
             { id = "e2da3aa8", text = "Ricrea la tua arma scintilla a mitico una volta ottenuti 80 stemmi mitici" },
             { id = "74924a7b", text = "Farma i +10 per equipaggiamento liv. 266 in ogni slot" },

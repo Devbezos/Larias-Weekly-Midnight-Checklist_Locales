@@ -56,6 +56,7 @@ local DATASET = {
             { id = "4c264b7f", text = "Complete a missão semanal de moradia da Vaeli para emblemas de herói rápidos" }, -- ⚠️ UNVERIFIED
             { id = "e8673800", text = "Sem recompensa repetível real, não há razão para fazer ?? Nulleaus após a primeira conclusão" }, -- ⚠️ UNVERIFIED
             { id = "547b880e", text = "Complete a missão semanal das 3x presas do pesadelo para obter um item que invoca um chefe de delve para conseguir um mapa e 20 brasões de Herói sem limite." }, -- ⚠️ UNVERIFIED
+            { id = "8d655cd7", text = "A missão semanal do chamado do explorador para fazer 5 explorações recompensa uma peça aleatória de saque de raide no nível de item campeão. ISSO PODE INCLUIR EQUIPAMENTO DE MARÇO, incluindo pluma Radiante/Umbral. Faça esta missão para uma chance de obter seus berloques bis no nível de item normal." }, -- ⚠️ UNVERIFIED
             { id = "73ad86e4", text = "Faça pelo menos um delve abundante t11 para obter a Missão da Pedra-chave Rachada para 20 brasões de Herói e Mito sem limite. Enquanto estiver fazendo isso, use seu item de chefe da missão das 3x Presas do pesadelo para obter um mapa e use-o neste delve" }, -- ⚠️ UNVERIFIED
             { id = "e2da3aa8", text = "Refaça sua arma de centelha para mítico assim que conseguir 80 insígnias míticas" },
             { id = "74924a7b", text = "Farme +10s para equipamento nível 266 em todos os slots" },

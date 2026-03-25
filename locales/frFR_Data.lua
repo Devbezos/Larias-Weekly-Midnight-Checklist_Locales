@@ -56,6 +56,7 @@ local DATASET = {
             { id = "4c264b7f", text = "Terminez la quête de logement hebdomadaire auprès de Vaeli pour des armoiries de héros rapides" }, -- ⚠️ UNVERIFIED
             { id = "e8673800", text = "Aucune récompense répétable réelle, aucune raison de faire ?? Nulleaux après la première complétion" }, -- ⚠️ UNVERIFIED
             { id = "547b880e", text = "Terminez la quête hebdomadaire des 3 proies cauchemar pour obtenir un objet qui invoque un boss de délétion afin d'obtenir une carte et 20 écussons de héros sans plafond." },
+            { id = "8d655cd7", text = "La quête hebdomadaire d'appel du fouilleur consistant à faire 5 excavations récompense une pièce d'équipement de raid aléatoire au niveau d'objet champion. CELA PEUT INCLURE L'ÉQUIPEMENT DE MARCHE, y compris les plumes Radieuse/Ombrale. Faites cette quête pour avoir une chance d'obtenir vos bibelots BiS au niveau d'objet normal." }, -- ⚠️ UNVERIFIED
             { id = "73ad86e4", text = "Faites au moins une délétion fructueuse de niveau 11 pour obtenir la quête de la pierre fendue pour 20 écussons de héros et de mythe sans plafond. Pendant que vous la faites, utilisez votre objet de boss de la quête des 3 proies cauchemar pour obtenir une carte et utilisez-la dans cette délétion" }, -- ⚠️ UNVERIFIED
             { id = "e2da3aa8", text = "Reforgez votre arme d'étincelle en mythique une fois que vous avez 80 crêtes mythiques" },
             { id = "74924a7b", text = "Farmez les +10 pour l'équipement niv. 266 dans chaque emplacement" },

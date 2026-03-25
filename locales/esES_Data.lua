@@ -56,6 +56,7 @@ local DATASET = {
             { id = "4c264b7f", text = "Completa la misión semanal de vivienda de Vaeli para blasones de héroe rápidos" }, -- ⚠️ UNVERIFIED
             { id = "e8673800", text = "No hay recompensa repetible real, no hay razón para hacer ?? Nulleaus después de la primera completación" }, -- ⚠️ UNVERIFIED
             { id = "547b880e", text = "Completa la misión semanal de 3 presas de pesadilla para obtener un objeto que invoca a un jefe de profundidad para conseguir un mapa y 20 emblemas de héroe sin límite." },
+            { id = "8d655cd7", text = "La misión semanal de llamada del explorador para hacer 5 expediciones recompensa una pieza aleatoria de botín de banda a nivel de objeto de campeón. ESTO PUEDE INCLUIR EQUIPO DE MARZO, incluyendo pluma radiante/umbría. Haz esta misión para tener la oportunidad de conseguir tus abalorios ideales a nivel normal." }, -- ⚠️ UNVERIFIED
             { id = "73ad86e4", text = "Haz al menos una profundidad abundante de nivel 11 para obtener la misión de piedra angular agrietada por 20 emblemas de héroe y míticos sin límite. Mientras la haces, usa tu objeto de jefe de la misión de 3 presas de pesadilla para obtener un mapa y úsalo en esta profundidad" },
             { id = "e2da3aa8", text = "Recrea tu arma de chispa a mítica una vez que consigas 80 emblemas míticos" }, -- ⚠️ UNVERIFIED
             { id = "74924a7b", text = "Farmea +10s para equipo niv. 266 en cada hueco" },
