@@ -32,6 +32,7 @@ local STRINGS = {
 	OPTIONS_HIDE_SLIDERS         = "隐藏滑块",
 	OPTIONS_HIDE_UPDATE_NOTICE   = "隐藏更新警告",
 	OPTIONS_DISABLE_UPGRADE_WARN = "隐藏升级警告",
+	OPTIONS_DISABLE_BONUS_ROLL_WARN = "隐藏额外掷骰警告",
 	OPTIONS_HIDE_MINIMAP_BTN     = "隐藏小地图按钮",
 	-- Options checkbox tooltips
 	OPTIONS_TOOLTIP_HIDE_COMPLETED_TASKS = "隐藏所有周中已勾选的任务。",
@@ -42,6 +43,7 @@ local STRINGS = {
 	OPTIONS_TOOLTIP_HIDE_ILVL_REF_BTN    = "隐藏标题栏中的物品等级参考弹窗按钮。",
 	OPTIONS_TOOLTIP_HIDE_UPDATE_NOTICE   = "隐藏有新版本电子表格可用时显示的横幅。",
 	OPTIONS_TOOLTIP_DISABLE_UPGRADE_WARN = "隐藏将物品从1/6升级而非5/6时显示的弹窗警告。",
+	OPTIONS_TOOLTIP_DISABLE_BONUS_ROLL_WARN = "隐藏额外掷骰窗口打开时显示的警告。",
 	OPTIONS_TOOLTIP_HIDE_MINIMAP_BTN     = "隐藏小地图按钮。\n你仍可以通过/larias命令打开清单。",
 	RESET_BUTTON = "重置清单",
 	UI_SCALE_LABEL       = "缩放",
@@ -67,6 +69,9 @@ local STRINGS = {
 	UPGRADE_WARN_MSG             = "将1/6的%s物品升级是浪费%d个纹章。\n你应该升级%s物品到5/6。",
 	UPGRADE_WARN_DISABLE_BTN     = "隐藏升级警告",
 	UPGRADE_WARN_DISABLE_TOOLTIP = "查看Larias's使用指南了解更多信息。",
+	BONUS_ROLL_WARN_MSG             = "|cffff6600警告：|r 额外掷骰当前存在错误。\n建议不要使用它们。",
+	BONUS_ROLL_WARN_DISABLE_BTN     = "隐藏额外掷骰警告",
+	BONUS_ROLL_WARN_DISABLE_TOOLTIP = "没有重复保护。",
 	-- Color picker swatch labels (gear popup)
 	COLOR_PICKER_BG             = "背景",
 	COLOR_PICKER_TEXT           = "文字",
